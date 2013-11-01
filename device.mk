@@ -240,6 +240,7 @@ PRODUCT_PACKAGES += \
 
 # Keyboard
 PRODUCT_PACKAGES += \
+    AsantiKeypad \
     QWERTY_keymap \
     QWERTZ_keymap \
     AZERTY_keymap \
