@@ -245,6 +245,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/Fxtec_Pro1.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/Fxtec_Pro1.idc
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/keychars/Fxtec_Pro1-X.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/Fxtec_Pro1-X.kcm
+
+PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/keylayout/gpio-keys.kl
 
 # Keymaster
