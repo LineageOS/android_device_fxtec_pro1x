@@ -241,7 +241,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/AVRCP.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/AVRCP.idc \
     $(LOCAL_PATH)/configs/idc/qwerty.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/qwerty.idc \
-    $(LOCAL_PATH)/configs/idc/qwerty2.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/qwerty2.idc
+    $(LOCAL_PATH)/configs/idc/qwerty2.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/qwerty2.idc \
+    $(LOCAL_PATH)/configs/idc/Builtin_Keyboard.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/Builtin_Keyboard.idc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keychars/Generic.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/Generic.kcm \
