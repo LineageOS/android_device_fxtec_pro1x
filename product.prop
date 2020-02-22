@@ -27,6 +27,8 @@ bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 
 # GMS
+ro.com.google.ime.kb_pad_port_l=10
+ro.com.google.ime.kb_pad_port_r=10
 ro.opa.eligible_device=true
 
 # IMS
