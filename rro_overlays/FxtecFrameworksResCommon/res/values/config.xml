@@ -5,9 +5,6 @@
 -->
 <resources>
 
-    <!-- True if camera app should be pinned via Pinner Service -->
-    <bool name="config_pinnerCameraApp">true</bool>
-
     <!-- True if home app should be pinned via Pinner Service -->
     <bool name="config_pinnerHomeApp">true</bool>
 
