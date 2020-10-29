@@ -33,9 +33,6 @@
          turned off and the screen off animation has been performed. -->
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
 
-    <!-- Whether UI for multi user should be shown -->
-    <bool name="config_enableMultiUserUI">true</bool>
-
     <!-- Is the device capable of hot swapping an UICC Card -->
     <bool name="config_hotswapCapable">true</bool>
 
@@ -101,9 +98,6 @@
          config_defaultRefreshRate may be set to 0, in which case the value set for
          config_defaultPeakRefreshRate will act as the default frame rate. -->
     <integer name="config_defaultRefreshRate">0</integer>
-
-    <!--  Maximum number of supported users -->
-    <integer name="config_multiuserMaximumUsers">4</integer>
 
     <!-- Screen brightness used to dim the screen while dozing in a very low power state.
          May be less than the minimum allowed brightness setting
