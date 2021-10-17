@@ -32,7 +32,8 @@
             </intent-filter>
         </provider>
 
-        <receiver android:name=".BootCompletedReceiver">
+        <receiver android:name=".BootCompletedReceiver"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -40,11 +41,13 @@
         </receiver>
 
         <service android:name=".doze.DozeService"
-                 android:permission="DozeService">
+                 android:permission="DozeService"
+                 android:exported="true">
         </service>
 
         <activity
             android:name=".doze.DozeSettingsActivity"
+            android:exported="false"
             android:label="@string/ambient_display_title"
             android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
@@ -55,7 +58,8 @@
 
         <activity
             android:name=".keyboard.KeyboardSettingsActivity"
-            android:label="@string/keyboard_settings_title">
+            android:label="@string/keyboard_settings_title"
+            android:exported="true">
             <intent-filter>
                 <action android:name="org.lineageos.settings.device.ADVANCED_KEYBOARD_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -64,7 +68,8 @@
 
         <activity
             android:name=".setupwizard.SetupWizardActivity"
-            android:theme="@style/Theme.SetupWizard">
+            android:theme="@style/Theme.SetupWizard"
+            android:exported="true">
             <intent-filter>
                 <action android:name="org.lineageos.settings.device.SUW_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -73,8 +78,9 @@
 
         <activity
             android:name=".touchscreen.TouchscreenSettingsActivity"
-            android:label="@string/touchscreen_settings_title">
-            <intent-filter>
+            android:label="@string/touchscreen_settings_title"
+            android:exported="true"> 
+           <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
             <meta-data
