@@ -233,7 +233,7 @@ vendor/lib64/libopencv.so
 vendor/lib64/libopestriping.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libtfestriping.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|28831e0b97d2447d905c660db9e930475768bd13
 
 # CDSP
 vendor/bin/cdsprpcd
