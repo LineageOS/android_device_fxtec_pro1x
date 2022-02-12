@@ -330,6 +330,7 @@ PRODUCT_PACKAGES += \
     FxtecSettingsProviderResTarget \
     FxtecWifiResCommon \
     SystemUIResCommon \
+    SystemUIResTarget \
     TelephonyResCommon \
     WifiResCommon \
     WifiResTarget
