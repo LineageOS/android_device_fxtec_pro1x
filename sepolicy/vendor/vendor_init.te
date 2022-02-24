@@ -1,3 +1,1 @@
-allow vendor_init vendor_rawdump_block_device:lnk_file setattr;
-
 get_prop(vendor_init, persist_debug_prop)
