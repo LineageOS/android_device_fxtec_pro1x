@@ -330,6 +330,9 @@ PRODUCT_PACKAGES += \
     WifiResCommon \
     WifiResTarget
 
+PRODUCT_PACKAGES += \
+    TrebuchetDeviceOverlay
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
