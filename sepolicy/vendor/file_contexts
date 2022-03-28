@@ -1,6 +1,9 @@
 # Fingerprint
 /dev/madev0                                                                u:object_r:fpsensor_fp_device:s0
 
+# KeyDisabler
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch\@[0-9]\.[0-9]-service.pro1    u:object_r:hal_lineage_touch_default_exec:s0
+
 # Lights
 /vendor/bin/hw/android\.hardware\.lights-service\.pro1x                    u:object_r:hal_light_default_exec:s0
 
