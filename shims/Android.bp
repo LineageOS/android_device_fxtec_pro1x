@@ -1,0 +1,12 @@
+//
+// Copyright (C) 2022 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library {
+    name: "libcamera_metadata_shim",
+    shared_libs: ["libcamera_metadata"],
+    srcs: ["camera_metadata.cpp"],
+    vendor: true
+}
