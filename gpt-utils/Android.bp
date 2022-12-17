@@ -1,0 +1,21 @@
+//
+// Copyright (C) 2022 The Android Open Source Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library {
+    name: "libgptutils.fxtec_bengal",
+    export_include_dirs: ["."],
+    header_libs: ["generated_kernel_headers"],
+    recovery_available: true,
+    shared_libs: [
+        "libcutils",
+        "liblog",
+        "libz",
+    ],
+    srcs: [
+        "gpt-utils.cpp",
+        "recovery-ufs-bsg.cpp",
+    ],
+    vendor: true,
+}
