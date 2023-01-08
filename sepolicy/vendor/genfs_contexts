@@ -1,0 +1,9 @@
+# LED
+genfscon sysfs /devices/platform/soc/soc:leds/leds/button-backlight                u:object_r:sysfs_leds:s0
+
+# Vibrator
+genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0058/leds/vibrator        u:object_r:sysfs_leds:s0
+
+# Wakeup
+genfscon sysfs /devices/platform/soc/880000.i2c/i2c-0/0-0008/wakeup                u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:microarray_fp/wakeup                      u:object_r:sysfs_wakeup:s0

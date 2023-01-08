@@ -194,6 +194,7 @@ VENDOR_SECURITY_PATCH := 2022-06-01
 
 # SEPolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
+include $(DEVICE_PATH)/sepolicy/SEPolicy.mk
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
