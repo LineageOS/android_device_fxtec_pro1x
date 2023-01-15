@@ -8,6 +8,7 @@
         <value>4</value>
     </array>
     <array name="cpu.core_speeds.cluster0">
+        <value>300000</value>
         <value>614000</value>
         <value>864000</value>
         <value>1017600</value>
@@ -17,6 +18,7 @@
         <value>1804800</value>
     </array>
     <array name="cpu.core_power.cluster0">
+        <value>5</value>
         <value>9</value>
         <value>14</value>
         <value>17</value>
@@ -26,6 +28,9 @@
         <value>49</value>
     </array>
     <array name="cpu.core_speeds.cluster1">
+        <value>300000</value>
+        <value>652800</value>
+        <value>902400</value>
         <value>1056000</value>
         <value>1401600</value>
         <value>1536000</value>
@@ -34,6 +39,9 @@
         <value>2016000</value>
     </array>
     <array name="cpu.core_power.cluster1">
+        <value>22</value>
+        <value>30</value>
+        <value>36</value>
         <value>43</value>
         <value>67</value>
         <value>77</value>
