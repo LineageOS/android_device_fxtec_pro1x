@@ -242,19 +242,6 @@ PRODUCT_PACKAGES += \
 
 # Keyboard
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/idc/AVRCP.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/AVRCP.idc \
-    $(LOCAL_PATH)/configs/idc/qwerty.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/qwerty.idc \
-    $(LOCAL_PATH)/configs/idc/qwerty2.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/qwerty2.idc
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/keychars/Generic.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/Generic.kcm \
-    $(LOCAL_PATH)/configs/keychars/qwerty.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/qwerty.kcm \
-    $(LOCAL_PATH)/configs/keychars/qwerty2.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/qwerty2.kcm \
-    $(LOCAL_PATH)/configs/keychars/Vendor_18d1_Product_0200.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/Vendor_18d1_Product_0200.kcm \
-    $(LOCAL_PATH)/configs/keychars/Vendor_18d1_Product_5018.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/Vendor_18d1_Product_5018.kcm \
-    $(LOCAL_PATH)/configs/keychars/Virtual.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/Virtual.kcm
-
-PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/keylayout/gpio-keys.kl
 
 # Keymaster
