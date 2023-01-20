@@ -2,9 +2,5 @@
   {
     "repository": "android_kernel_fxtec_s6115",
     "target_path": "kernel/fxtec/sm6115"
-  },
-  {
-    "repository": "android_vendor_qcom_opensource_healthd-ext",
-    "target_path": "vendor/qcom/opensource/healthd-ext"
   }
 ]
