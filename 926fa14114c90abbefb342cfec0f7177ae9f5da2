@@ -16,6 +16,23 @@
       "message": "Why isn\u0027t this squashed into previous change?",
       "revId": "926fa14114c90abbefb342cfec0f7177ae9f5da2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0925abd1_d035ccdc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2023-01-22T05:03:41Z",
+      "side": 1,
+      "message": "347640 is a cherry-pick from pro1, and pro1 doesn\u0027t require the extra compatibility matrix declaration.",
+      "revId": "926fa14114c90abbefb342cfec0f7177ae9f5da2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
