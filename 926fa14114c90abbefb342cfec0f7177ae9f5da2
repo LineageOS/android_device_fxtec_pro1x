@@ -33,6 +33,23 @@
       "message": "347640 is a cherry-pick from pro1, and pro1 doesn\u0027t require the extra compatibility matrix declaration.",
       "revId": "926fa14114c90abbefb342cfec0f7177ae9f5da2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "25f952a0_26794158",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2023-01-22T05:32:47Z",
+      "side": 1,
+      "message": "sorry, but i remain opposed to further developing 19.1 at all. the kernel is a mess, we never released (or will release) it, and we agreed to keep it as a reference only. the 19.1 keyboard stuff is good enough not to be utterly broken, and no one will ever get to use it anyways unless they build it themselves.\ni\u0027d prefer us to focus efforts on 20, as i doubt we all want to build 2 different branches just to check correctness of changes. lets just move on.",
+      "revId": "926fa14114c90abbefb342cfec0f7177ae9f5da2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
