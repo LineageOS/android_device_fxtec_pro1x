@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba888d2d_137f8d46",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-01-25T19:03:59Z",
+      "side": 1,
+      "message": "be careful on this one, maybe keep all sw4303? There are different panels on diff protos afaik, and some protos have pro1 displays (idk if it\u0027s same in source there).",
+      "revId": "05bd6479160ef5eae3598ee8a7cfc45aebbcb1be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
