@@ -1,19 +1,4 @@
 on early-boot
-    # RGB lights
-    chown system system /sys/class/leds/red/breath
-    chown system system /sys/class/leds/blue/breath
-    chown system system /sys/class/leds/green/breath
-    chmod 660 /sys/class/leds/red/breath
-    chmod 660 /sys/class/leds/blue/breath
-    chmod 660 /sys/class/leds/green/breath
-
-    chown system system /sys/class/leds/red/brightness
-    chown system system /sys/class/leds/blue/brightness
-    chown system system /sys/class/leds/green/brightness
-    chmod 660 /sys/class/leds/red/brightness
-    chmod 660 /sys/class/leds/blue/brightness
-    chmod 660 /sys/class/leds/green/brightness
-
     # Backlight permissions
     chown system system /sys/class/leds/button-backlight/brightness
     chmod 660 /sys/class/leds/button-backlight/brightness
