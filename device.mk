@@ -153,6 +153,18 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
 
+<<<<<<< PATCH SET (88d9c3 pro1x: Wire up FM Radio)
+# FM
+PRODUCT_PACKAGES += \
+    FM2 \
+    qcom.fmradio
+
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0.vendor:64
+
+=======
+>>>>>>> BASE      (eee62e pro1x: Override kernel BPF version to 5.10)
 # GNSS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf
