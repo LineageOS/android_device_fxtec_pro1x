@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "167af0c0_acf0e8b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2023-01-26T07:14:40Z",
+      "side": 1,
+      "message": "imo, instead of removing the entire section in the makefile (and the dirs) only to re-add them in the next 3 commits is a bit confusing... would you consider squashing those?",
+      "revId": "3f5b63a2e8b49b3693a1cc2f1b4ca4e6cdb59e1b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
