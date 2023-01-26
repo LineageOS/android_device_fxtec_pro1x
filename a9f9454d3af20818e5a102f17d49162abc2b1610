@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07cc23fb_5f398315",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2023-01-26T05:27:33Z",
+      "side": 1,
+      "message": "PS2 includes the framework_manifest.xml which was previously in a separate CR, and changes the default in SuW to on-screen navigation",
+      "revId": "a9f9454d3af20818e5a102f17d49162abc2b1610",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
