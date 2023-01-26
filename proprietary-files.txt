@@ -552,7 +552,7 @@ vendor/lib64/hw/vulkan.adreno.so
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
 system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
 system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar
-system_ext/lib64/lib-imsvideocodec.so|e5b987180e7b29ab782f78b19408265e202b3722
+system_ext/lib64/lib-imsvideocodec.so|e5b987180e7b29ab782f78b19408265e202b3722|7e7dd2c8d27808fd5befe246ea39070b0ac0dda8
 system_ext/lib64/lib-imsvt.so
 system_ext/lib64/lib-imsvtextutils.so
 system_ext/lib64/lib-imsvtutils.so
