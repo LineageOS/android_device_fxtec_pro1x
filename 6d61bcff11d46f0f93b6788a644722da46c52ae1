@@ -1,6 +1,29 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc8a3db6_e1f8f077",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 10
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-01-26T06:15:27Z",
+      "side": 1,
+      "message": "not needed either",
+      "range": {
+        "startLine": 74,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 26
+      },
+      "revId": "6d61bcff11d46f0f93b6788a644722da46c52ae1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8582f750_2cb9a470",
