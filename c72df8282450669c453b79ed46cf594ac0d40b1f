@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f6c5e58_bbfe0389",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-01-26T01:30:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "77eb84d6_3f455d06",
+      "range": {
+        "startLine": 75,
+        "startChar": 26,
+        "endLine": 75,
+        "endChar": 27
+      },
+      "revId": "c72df8282450669c453b79ed46cf594ac0d40b1f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f38a08ab_05a1eeea",
@@ -60,6 +84,24 @@
       "writtenOn": "2023-01-25T22:28:22Z",
       "side": 1,
       "message": "This is not necessary.",
+      "revId": "c72df8282450669c453b79ed46cf594ac0d40b1f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c3a0db8_40a40899",
+        "filename": "device.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-01-26T01:30:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eabd3941_b2e42169",
       "revId": "c72df8282450669c453b79ed46cf594ac0d40b1f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
