@@ -16,6 +16,24 @@
       "message": "not sure if this is supposed to work already, but it doesnt for me (the app doesnt detect me plugging in my headphones)",
       "revId": "5e9d8611a679ca9c4f8b45d361cc80d1360e9d58",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "593300e6_303d6974",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-01-27T09:21:42Z",
+      "side": 1,
+      "message": "Maybe we have skipped some MBHC quirks.",
+      "parentUuid": "cc5758e6_af0a6c4c",
+      "revId": "5e9d8611a679ca9c4f8b45d361cc80d1360e9d58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
