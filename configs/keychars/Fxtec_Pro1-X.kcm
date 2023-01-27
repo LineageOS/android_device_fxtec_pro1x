@@ -283,6 +283,7 @@ key ENTER {
 key TAB {
     label:                              '\t'
     base:                               '\t'
+    fn:                                 replace APP_SWITCH
 }
 
 key COMMA {
