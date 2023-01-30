@@ -25,6 +25,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.keyboard.rc",
+    src: "init.keyboard.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.qcom.rc",
     src: "init.qcom.rc",
     sub_dir: "init/hw",
@@ -73,5 +80,11 @@ sh_binary {
 sh_binary {
     name: "init.qcom.sh",
     src: "init.qcom.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.set_layout.sh",
+    src: "init.set_layout.sh",
     vendor: true,
 }

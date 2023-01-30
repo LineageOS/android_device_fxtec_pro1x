@@ -240,6 +240,14 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc
 
 # Keyboard
+PRODUCT_PACKAGES += \
+    init.keyboard.rc \
+    init.set_layout.sh \
+    QWERTY_keymap \
+    QWERTZ_keymap \
+    AZERTY_keymap \
+    Scandic_keymap
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/Builtin_Keyboard.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/Builtin_Keyboard.idc
 
