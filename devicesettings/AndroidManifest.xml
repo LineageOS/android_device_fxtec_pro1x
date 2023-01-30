@@ -58,6 +58,24 @@
         </activity>
 
         <activity
+            android:name=".keyboard.KeyboardSettingsActivity"
+            android:label="@string/keyboard_settings_title">
+            <intent-filter>
+                <action android:name="org.lineageos.settings.device.ADVANCED_KEYBOARD_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".setupwizard.SetupWizardActivity"
+            android:theme="@style/Theme.SetupWizard">
+            <intent-filter>
+                <action android:name="org.lineageos.settings.device.SUW_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".touchscreen.TouchscreenSettingsActivity"
             android:label="@string/touchscreen_settings_title">
             <intent-filter>

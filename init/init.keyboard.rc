@@ -1,0 +1,18 @@
+on boot
+    chown system system /sys/devices/platform/soc/4a84000.i2c/i2c-0/0-005b/keymap
+    chmod 0660 /sys/devices/platform/soc/4a84000.i2c/i2c-0/0-005b/keymap
+
+    mkdir /mnt/vendor/persist/keyboard
+
+    # Remove unused old configuration data
+    rm /mnt/vendor/persist/data/keyboard/layout
+    rmdir /mnt/vendor/persist/data/keyboard
+
+    # Restore user setting
+    exec u:r:su:s0 root root -- /vendor/bin/init.set_layout.sh
+    copy /mnt/vendor/persist/keyboard/keymap /sys/devices/soc/c17a000.i2c/i2c-6/6-0058/keymap
+
+on property:sys.keyboard.layout=*
+    write /mnt/vendor/persist/keyboard/layout ${sys.keyboard.layout}
+    copy ${sys.keyboard.layout} /mnt/vendor/persist/keyboard/keymap
+    copy ${sys.keyboard.layout} /sys/devices/platform/soc/4a84000.i2c/i2c-0/0-005b/keymap
