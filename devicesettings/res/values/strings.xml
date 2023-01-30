@@ -4,10 +4,31 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
+    <!-- Keyboard setting strings -->
+    <string name="keyboard_settings_title">Advanced keyboard settings</string>
+
+    <string name="keyboard_layout_title">Physical layout</string>
+    <string name="keyboard_layout_default">/vendor/etc/keyboard/QWERTY_keymap</string>
+
+    <string name="keyboard_keymap_custom_title">Custom keymap</string>
+    <string name="keyboard_keymap_custom_summary_enabled">Using user customized keymap</string>
+    <string name="keyboard_keymap_custom_summary_available">Custom keymap available</string>
+    <string name="keyboard_keymap_custom_summary_disabled">No custom keymap available</string>
+    <string name="keyboard_keymap_custom_failed">Custom keymap failed to apply</string>
+
+    <string name="keyboard_keymap_altgr_title">Right FN key sends AltGr</string>
+    <string name="keyboard_keymap_altgr_summary">Change right-hand diagonal yellow arrow key to AltGr</string>
+
     <!-- Touchscreen settings strings -->
     <string name="touchscreen_settings_title">Touchscreen settings</string>
     <string name="touchscreen_settings_summary">Control margin (dead zone)</string>
 
     <string name="touchscreen_margin_title">Margin</string>
     <string name="touchscreen_margin_summary">Margin level: %d</string>
+
+    <!-- Setup wizard integration -->
+    <string name="setupwizard_title">Keyboard settings</string>
+    <string name="setupwizard_summary">This device is available with different hardware keyboard layouts.
+In order for the device to be able to send the correct keys, please set the actual keyboard layout below.</string>
+    <string name="setupwizard_next">Next</string>
 </resources>

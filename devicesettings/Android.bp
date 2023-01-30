@@ -21,3 +21,35 @@ android_app {
         proguard_flags_files: ["proguard.flags"],
     },
 }
+
+prebuilt_etc {
+    name: "QWERTY_keymap",
+    vendor: true,
+    src: "keymaps/QWERTY_keymap",
+    filename: "QWERTY_keymap",
+    relative_install_path: "keyboard",
+}
+
+prebuilt_etc {
+    name: "QWERTZ_keymap",
+    vendor: true,
+    src: "keymaps/QWERTZ_keymap",
+    filename: "QWERTZ_keymap",
+    relative_install_path: "keyboard",
+}
+
+prebuilt_etc {
+    name: "AZERTY_keymap",
+    vendor: true,
+    src: "keymaps/AZERTY_keymap",
+    filename: "AZERTY_keymap",
+    relative_install_path: "keyboard",
+}
+
+prebuilt_etc {
+    name: "Scandic_keymap",
+    vendor: true,
+    src: "keymaps/Scandic_keymap",
+    filename: "Scandic_keymap",
+    relative_install_path: "keyboard",
+}
