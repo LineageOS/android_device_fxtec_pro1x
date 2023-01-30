@@ -1,6 +1,10 @@
 # Fingerprint
 /dev/madev0                                                                u:object_r:fpsensor_fp_device:s0
 
+# Hardware keyboard variants
+/vendor/etc/keyboard(/.*)?                                                 u:object_r:vendor_keylayout_file:s0
+/vendor/bin/init.set_layout.sh                                             u:object_r:vendor_qti_init_shell_exec:s0
+
 # Lights
 /vendor/bin/hw/android\.hardware\.lights-service\.pro1x                    u:object_r:hal_light_default_exec:s0
 
