@@ -16,6 +16,24 @@
       "message": "What is the point of splitting up this?",
       "revId": "89c6a3448a3579d8aaad302395cdd3e29b407f62",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "72cbabcb_a1404790",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 14
+      },
+      "lineNbr": 442,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-01-30T00:39:29Z",
+      "side": 1,
+      "message": "Point was - we shouldn\u0027t need them. Only were there for testing.",
+      "parentUuid": "e286c730_e4f590c2",
+      "revId": "89c6a3448a3579d8aaad302395cdd3e29b407f62",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
