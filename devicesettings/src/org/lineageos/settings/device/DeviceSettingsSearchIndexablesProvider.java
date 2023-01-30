@@ -22,17 +22,22 @@ import android.provider.SearchIndexableResource;
 import android.provider.SearchIndexablesProvider;
 
 import org.lineageos.settings.device.doze.DozeSettingsActivity;
+import org.lineageos.settings.device.keyboard.KeyboardSettingsActivity;
 import org.lineageos.settings.device.touchscreen.TouchscreenSettingsActivity;
 
 public class DeviceSettingsSearchIndexablesProvider extends SearchIndexablesProvider {
     private static final String TAG = "DeviceSettingsSearchIndexablesProvider";
 
     private static final int SEARCH_IDX_DOZE_SETTINGS = 0;
-    private static final int SEARCH_IDX_TOUCHSCREEN_PANEL = 1;
+    private static final int SEARCH_IDX_KEYBOARD_PANEL = 1;
+    private static final int SEARCH_IDX_TOUCHSCREEN_PANEL = 2;
 
     private static SearchIndexableResource[] INDEXABLE_RES = new SearchIndexableResource[]{
             new SearchIndexableResource(1, R.xml.doze_settings,
                     DozeSettingsActivity.class.getName(),
+                    R.drawable.ic_settings_dummy),
+            new SearchIndexableResource(1, R.xml.keyboard_panel,
+                    KeyboardSettingsActivity.class.getName(),
                     R.drawable.ic_settings_dummy),
             new SearchIndexableResource(1, R.xml.touchscreen_panel,
                     TouchscreenSettingsActivity.class.getName(),
@@ -48,6 +53,7 @@ public class DeviceSettingsSearchIndexablesProvider extends SearchIndexablesProv
     public Cursor queryXmlResources(String[] projection) {
         MatrixCursor cursor = new MatrixCursor(INDEXABLES_XML_RES_COLUMNS);
         cursor.addRow(generateResourceRef(INDEXABLE_RES[SEARCH_IDX_DOZE_SETTINGS]));
+        cursor.addRow(generateResourceRef(INDEXABLE_RES[SEARCH_IDX_KEYBOARD_PANEL]));
         cursor.addRow(generateResourceRef(INDEXABLE_RES[SEARCH_IDX_TOUCHSCREEN_PANEL]));
         return cursor;
     }
