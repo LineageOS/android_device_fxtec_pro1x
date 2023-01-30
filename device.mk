@@ -227,6 +227,7 @@ PRODUCT_PACKAGES += \
     fstab.default \
     fstab.default.ramdisk \
     init.class_main.sh \
+    init.keyboard.rc \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.rc \
@@ -238,6 +239,12 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc
 
 # Keyboard
+PRODUCT_PACKAGES += \
+    QWERTY_keymap \
+    QWERTZ_keymap \
+    AZERTY_keymap \
+    Scandic_keymap
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/Builtin_Keyboard.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/Builtin_Keyboard.idc
 
