@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95e292a1_fb087b25",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2023-01-31T18:47:47Z",
+      "side": 1,
+      "message": "PS2 updates keymap files so keys 64 to 69 match pro1",
+      "revId": "e1395118a6fade76d874a9bc6a00bd0145e75529",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
