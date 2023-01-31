@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bfe7a5ef_a8bf1457",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2023-01-31T23:05:21Z",
+      "side": 1,
+      "message": "PS3 fixes an initialization bug with the layout spinner",
+      "revId": "342f3b1cd43debdf901aa5aa823fbddb3e870005",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
