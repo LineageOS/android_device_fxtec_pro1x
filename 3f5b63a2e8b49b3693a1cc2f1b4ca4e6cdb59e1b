@@ -16,6 +16,24 @@
       "message": "imo, instead of removing the entire section in the makefile (and the dirs) only to re-add them in the next 3 commits is a bit confusing... would you consider squashing those?",
       "revId": "3f5b63a2e8b49b3693a1cc2f1b4ca4e6cdb59e1b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d8ff7cd_78a1c193",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2023-02-01T19:45:09Z",
+      "side": 1,
+      "message": "Only this cleanup change and 347637 are needed with the new keyboard driver. I have moved 347637 out of topic:pro1x-old_kbd_driver to be merged separately. This change must wait for the new driver, as the intermediate state is broken without the rest of topic:pro1x-old_kbd_driver",
+      "parentUuid": "167af0c0_acf0e8b5",
+      "revId": "3f5b63a2e8b49b3693a1cc2f1b4ca4e6cdb59e1b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
