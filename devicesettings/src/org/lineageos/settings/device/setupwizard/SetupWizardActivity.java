@@ -16,6 +16,8 @@
 
 package org.lineageos.settings.device.setupwizard;
 
+import android.hardware.input.InputDeviceIdentifier;
+import android.hardware.input.InputManager;
 import android.os.SystemProperties;
 import android.view.View;
 import android.widget.AdapterView;
@@ -24,6 +26,7 @@ import android.widget.Spinner;
 
 import org.lineageos.internal.util.FileUtils;
 import org.lineageos.settings.device.keyboard.Constants;
+import org.lineageos.settings.device.keyboard.KeyboardUtils;
 import org.lineageos.settings.device.R;
 
 import java.util.ArrayList;
@@ -57,6 +60,14 @@ public class SetupWizardActivity extends SetupWizardBaseActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String[] values = getResources().getStringArray(R.array.keyboard_layout_values);
                 SystemProperties.set(Constants.KEYBOARD_LAYOUT_PROPERTY, values[position]);
+
+                InputManager iM = InputManager.getInstance();
+                InputDeviceIdentifier iDId = iM.getInputDevice(0).getIdentifier();
+                values = getResources().getStringArray(R.array.keyboard_layout_languages);
+                String lD = KeyboardUtils.getLayoutDescriptor(iDId, values[position]);
+                if (lD != null) {
+                    iM.setCurrentKeyboardLayoutForInputDevice(iDId, lD);
+                }
             }
 
             @Override
