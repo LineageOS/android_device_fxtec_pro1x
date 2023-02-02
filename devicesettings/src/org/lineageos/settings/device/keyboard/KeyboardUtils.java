@@ -16,7 +16,11 @@
 
 package org.lineageos.settings.device.keyboard;
 
+import android.content.Context;
 import android.content.SharedPreferences;
+import android.hardware.input.InputDeviceIdentifier;
+import android.hardware.input.InputManager;
+import android.hardware.input.KeyboardLayout;
 import android.util.Log;
 
 import java.io.BufferedReader;
@@ -29,6 +33,8 @@ import java.io.FileOutputStream;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.OutputStreamWriter;
+
+import org.lineageos.settings.device.R;
 
 public class KeyboardUtils {
 
@@ -127,6 +133,63 @@ public class KeyboardUtils {
             result = true;
         }
         catch (Exception e) { /* Ignore */ }
+        return result;
+    }
+
+    private static final class KeyboardLayoutDescriptor {
+        public String packageName;
+        public String receiverName;
+        public String keyboardLayoutName;
+
+        public static String format(String packageName,
+                String receiverName, String keyboardName) {
+            return packageName + "/" + receiverName + "/" + keyboardName;
+        }
+
+        public static KeyboardLayoutDescriptor parse(String descriptor) {
+            int pos = descriptor.indexOf('/');
+            if (pos < 0 || pos + 1 == descriptor.length()) {
+                return null;
+            }
+            int pos2 = descriptor.indexOf('/', pos + 1);
+            if (pos2 < pos + 2 || pos2 + 1 == descriptor.length()) {
+                return null;
+            }
+
+            KeyboardLayoutDescriptor result = new KeyboardLayoutDescriptor();
+            result.packageName = descriptor.substring(0, pos);
+            result.receiverName = descriptor.substring(pos + 1, pos2);
+            result.keyboardLayoutName = descriptor.substring(pos2 + 1);
+            return result;
+        }
+    }
+
+    public static String getLayoutDescriptor(InputDeviceIdentifier iDId, String layoutName) {
+        String result = null;
+        InputManager iM = InputManager.getInstance();
+
+        for (KeyboardLayout layout : iM.getKeyboardLayoutsForInputDevice(iDId)) {
+            String layoutDescriptor = layout.getDescriptor();
+            String name = KeyboardLayoutDescriptor.parse(layoutDescriptor).keyboardLayoutName;
+            if (name.equals(layoutName)) {
+                result = layoutDescriptor;
+                break;
+            }
+        }
+        return result;
+    }
+
+    public static String getLanguage(Context cTxt, String layout) {
+        String result = null;
+        String[] layouts = cTxt.getResources().getStringArray(R.array.keyboard_layout_values);
+        String[] languages = cTxt.getResources().getStringArray(R.array.keyboard_layout_languages);
+
+        for (int i = 0 ; i < layouts.length; i++) {
+            if (layout.equals(layouts[i])) {
+                result = languages[i];
+                break;
+            }
+        }
         return result;
     }
 }
