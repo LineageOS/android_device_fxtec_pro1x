@@ -29,4 +29,11 @@
         <item>/vendor/etc/keyboard/AZERTY_keymap</item>
         <item>/vendor/etc/keyboard/Scandic_keymap</item>
     </string-array>
+
+    <string-array name="keyboard_layout_languages" translatable="false">
+        <item>keyboard_layout_english_us</item>
+        <item>keyboard_layout_german</item>
+        <item>keyboard_layout_french</item>
+        <item>keyboard_layout_swedish</item>
+    </string-array>
 </resources>
