@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f66771d_3e8a323b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2023-02-04T17:43:40Z",
+      "side": 1,
+      "message": "PS2 adds customized keymaps for F(x)tec\u0027s QWERTZ, AZERTY, and Scandic variants",
+      "revId": "ef67f84f6d5f84a522c6ebc88fafc6a421d6b365",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
