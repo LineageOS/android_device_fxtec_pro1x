@@ -35,7 +35,7 @@ key C {
     base:                               'c'
     shift, capslock:                    'C'
     alt:                                '\u00e7'
-    shift+alt:                          '\u00c7'
+    shift+alt, alt+capslock:            '\u00c7'
     shift+capslock:                     'c'
 }
 
@@ -247,7 +247,7 @@ key 6 {
     label:                              '6'
     base:                               '6'
     shift, fn:                          '^'
-    alt+shift:                          '\u0302'
+    shift+alt, alt+capslock:            '\u0302'
 }
 
 key 7 {
@@ -309,7 +309,7 @@ key GRAVE {
     base:                               '`'
     shift, fn:                          '~'
     alt:                                '\u0300'
-    alt+shift:                          '\u0303'
+    shift+alt, alt+capslock:            '\u0303'
 }
 
 key MINUS {
