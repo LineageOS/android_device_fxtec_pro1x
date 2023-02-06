@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "37a25b5e_36128c50",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2023-02-06T22:46:10Z",
+      "side": 1,
+      "message": "PS7 fixes the navbar display state on upgrades. The navigation bar will now be displayed by default whether or not SuW has run.",
+      "revId": "2760f445c24cfb1822a4fd687d9d27f1e084d2ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
