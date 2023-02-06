@@ -1,0 +1,8 @@
+#
+# Copyright (C) 2022 The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# Android fstab file.
+#<src>                   <mnt_point>         <type>    <mnt_flags and options>                               <fs_mgr_flags>
+/dev/block/zram0         none                swap      defaults                                              zramsize=30%
