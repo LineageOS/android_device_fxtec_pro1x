@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9fcb94a8_8c624843",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2023-02-07T20:42:08Z",
+      "side": 1,
+      "message": "This change enables \u0027\\\u0027 and \u0027|\u0027 when using the Android language key character maps",
+      "revId": "d4abcd38daa0fd847f5ea2e815f7b5513aa12a1f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
