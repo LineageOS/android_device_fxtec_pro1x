@@ -25,6 +25,9 @@
     <string name="keyboard_keymap_altgr_title">Right FN key sends AltGr</string>
     <string name="keyboard_keymap_altgr_summary">Change right-hand diagonal yellow arrow key to AltGr</string>
 
+    <string name="keyboard_keymap_backslash_title">Del key sends backslash</string>
+    <string name="keyboard_keymap_backslash_summary">Change the Del key to backslash</string>
+
     <!-- Touchscreen settings strings -->
     <string name="touchscreen_settings_title">Touchscreen settings</string>
     <string name="touchscreen_settings_summary">Control margin (dead zone)</string>
