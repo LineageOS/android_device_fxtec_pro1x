@@ -33,6 +33,11 @@
         android:summary="@string/keyboard_keymap_altgr_summary"/>
 
     <androidx.preference.SwitchPreference
+        android:key="keyboard_keymap_backslash"
+        android:title="@string/keyboard_keymap_backslash_title"
+        android:summary="@string/keyboard_keymap_backslash_summary"/>
+
+    <androidx.preference.SwitchPreference
         android:key="keyboard_keymap_custom"
         android:title="@string/keyboard_keymap_custom_title"/>
 </PreferenceScreen>

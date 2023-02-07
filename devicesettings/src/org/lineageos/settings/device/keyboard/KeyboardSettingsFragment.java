@@ -45,6 +45,7 @@ public class KeyboardSettingsFragment extends PreferenceFragment
     private SharedPreferences mPrefs;
     private SwitchPreference mKeymapCustomPref;
     private SwitchPreference mKeymapAltGrPref;
+    private SwitchPreference mKeymapBackslashPref;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -53,6 +54,7 @@ public class KeyboardSettingsFragment extends PreferenceFragment
         mLayoutPref = findPreference(Constants.KEYBOARD_LAYOUT_KEY);
         mKeymapCustomPref = findPreference(Constants.KEYBOARD_KEYMAP_CUSTOM_KEY);
         mKeymapAltGrPref = findPreference(Constants.KEYBOARD_KEYMAP_ALTGR_KEY);
+        mKeymapBackslashPref = findPreference(Constants.KEYBOARD_KEYMAP_BACKSLASH_KEY);
 
         mLayoutPref.setValue(SystemProperties.get(Constants.KEYBOARD_LAYOUT_PROPERTY,
                     getResources().getString(R.string.keyboard_layout_default)));
@@ -81,6 +83,7 @@ public class KeyboardSettingsFragment extends PreferenceFragment
                 break;
             case Constants.KEYBOARD_KEYMAP_CUSTOM_KEY:
             case Constants.KEYBOARD_KEYMAP_ALTGR_KEY:
+            case Constants.KEYBOARD_KEYMAP_BACKSLASH_KEY:
                 doUpdateKeymapPreferences();
                 break;
         }
@@ -99,6 +102,7 @@ public class KeyboardSettingsFragment extends PreferenceFragment
         }
 
         mKeymapAltGrPref.setChecked(false);
+        mKeymapBackslashPref.setChecked(false);
     }
 
     private void doUpdateKeymapPreferences() {
@@ -106,6 +110,7 @@ public class KeyboardSettingsFragment extends PreferenceFragment
         KeyboardUtils.installKeymap(value);
 
         mKeymapAltGrPref.setEnabled(true);
+        mKeymapBackslashPref.setEnabled(true);
 
         File customKeymapFile = new File(Constants.KEYBOARD_KEYMAP_CFG_FILE);
         if (customKeymapFile.exists()) {
@@ -127,6 +132,8 @@ public class KeyboardSettingsFragment extends PreferenceFragment
                         R.string.keyboard_keymap_custom_summary_enabled));
                 mKeymapAltGrPref.setChecked(false);
                 mKeymapAltGrPref.setEnabled(false);
+                mKeymapBackslashPref.setChecked(false);
+                mKeymapBackslashPref.setEnabled(false);
             } else {
                 mKeymapCustomPref.setChecked(false);
                 Context context = getContext();
@@ -140,6 +147,14 @@ public class KeyboardSettingsFragment extends PreferenceFragment
             for (int i = 0; i < Constants.KEYBOARD_KEYMAP_ALTGR_TEXT.length; ++i) {
                KeyboardUtils.writeFile(Constants.KEYBOARD_KEYMAP_SYS_FILE,
                         Constants.KEYBOARD_KEYMAP_ALTGR_TEXT[i] + "\n");
+            }
+            mKeymapCustomPref.setChecked(false);
+        }
+
+        if (mKeymapBackslashPref.isChecked()) {
+            for (int i = 0; i < Constants.KEYBOARD_KEYMAP_BACKSLASH_TEXT.length; ++i) {
+               KeyboardUtils.writeFile(Constants.KEYBOARD_KEYMAP_SYS_FILE,
+                        Constants.KEYBOARD_KEYMAP_BACKSLASH_TEXT[i] + "\n");
             }
             mKeymapCustomPref.setChecked(false);
         }
