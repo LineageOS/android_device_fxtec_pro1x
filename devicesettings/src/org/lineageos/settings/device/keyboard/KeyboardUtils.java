@@ -107,6 +107,13 @@ public class KeyboardUtils {
                             Constants.KEYBOARD_KEYMAP_ALTGR_TEXT[i] + "\n");
                 }
             }
+
+            if (prefs.getBoolean(Constants.KEYBOARD_KEYMAP_BACKSLASH_KEY, false)) {
+                for (int i = 0; i < Constants.KEYBOARD_KEYMAP_BACKSLASH_TEXT.length; ++i) {
+                    writeFile(Constants.KEYBOARD_KEYMAP_SYS_FILE,
+                            Constants.KEYBOARD_KEYMAP_BACKSLASH_TEXT[i] + "\n");
+                }
+            }
         }
     }
 
