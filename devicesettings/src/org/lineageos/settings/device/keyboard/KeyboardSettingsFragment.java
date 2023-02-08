@@ -106,6 +106,11 @@ public class KeyboardSettingsFragment extends PreferenceFragment
         if (lD != null) {
             iM.setCurrentKeyboardLayoutForInputDevice(iDId, lD);
         }
+
+        mKeymapFnKeysPref.setChecked(false);
+        mKeymapSpacePowerPref.setChecked(false);
+        mKeymapAltGrPref.setChecked(false);
+        mKeymapBackslashPref.setChecked(false);
     }
 
     private void doUpdateKeymapPreferences() {
