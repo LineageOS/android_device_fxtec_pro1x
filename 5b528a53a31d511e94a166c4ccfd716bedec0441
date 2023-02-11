@@ -33,6 +33,24 @@
       "message": "Pressing Shift twice to activate Caps Lock is really annoying, esp. as it doesn\u0027t turn on the Caps Lock LED. This change makes it too easy to get Shift stuck on, and forces the user to \u0027hunt\u0027 for which way to turn it off (press Shift again, press Meta and Alt, press Caps Lock, repeat)",
       "revId": "5b528a53a31d511e94a166c4ccfd716bedec0441",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "065e7c4c_a466e855",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-02-11T18:07:55Z",
+      "side": 1,
+      "message": "Add this explanation to the commit message.",
+      "parentUuid": "1a9cc676_a4a0103c",
+      "revId": "5b528a53a31d511e94a166c4ccfd716bedec0441",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
