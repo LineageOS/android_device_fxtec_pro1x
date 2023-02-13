@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f386115_22c7f602",
+        "filename": "configs/keychars/Generic.kcm",
+        "patchSetId": 5
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2023-02-13T23:09:51Z",
+      "side": 0,
+      "message": "I think the ODM didn\u0027t pay attention to this part",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 72
+      },
+      "revId": "4e83e94ee2ecb2f2996dc6ea3601cc3866c6a1f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
