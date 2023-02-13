@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1832164_8d5afd7a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2023-02-13T21:26:37Z",
+      "side": 1,
+      "message": "i\u0027d prefer adding our custom files first, then removing the excess ones. just to be more clear in the chain",
+      "revId": "cead5b0d70f7cc8656e95d5a83b5249ca1fb7593",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
