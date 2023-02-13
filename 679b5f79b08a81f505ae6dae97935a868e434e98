@@ -16,6 +16,24 @@
       "message": "these will also be needed with the new kb driver?",
       "revId": "679b5f79b08a81f505ae6dae97935a868e434e98",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61c38a24_60efdae1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2023-02-13T23:26:25Z",
+      "side": 1,
+      "message": "We will need .kcm file for the built-in keyboard, but what needs to be in it depends on what the driver implements.",
+      "parentUuid": "f0cb9562_0e6463bf",
+      "revId": "679b5f79b08a81f505ae6dae97935a868e434e98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
