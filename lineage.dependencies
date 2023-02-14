@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_kernel_fxtec_s6115",
+    "repository": "android_kernel_fxtec_sm6115",
     "target_path": "kernel/fxtec/sm6115"
   },
   {
