@@ -90,12 +90,13 @@ void Lights::handleSpeakerLight() {
 }
 
 void Lights::setSpeakerLight(const HwLightState& state) {
-    uint32_t red, green, blue;
+    uint32_t brightness, red, green, blue;
     bool rc = true;
 
-    red = (state.color >> 16) & 0xFF;
-    green = (state.color >> 8) & 0xFF;
-    blue = state.color & 0xFF;
+    brightness = (state.color >> 24) & 0xFF;
+    red = ((state.color >> 16) & 0xFF) * brightness / 0xFF;
+    green = ((state.color >> 8) & 0xFF) * brightness / 0xFF;
+    blue = (state.color & 0xFF) * brightness / 0xFF;
 
     switch (state.flashMode) {
         case FlashMode::HARDWARE:
