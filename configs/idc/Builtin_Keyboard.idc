@@ -26,3 +26,6 @@ keyboard.builtIn = 1
 # The keyboard is always used in landscape orientation, so don't rotate
 # the arrow keys to compensate for orientation changes
 keyboard.orientationAware = 0
+
+# Our custom key character map
+keyboard.characterMap = Fxtec_Pro1-X
