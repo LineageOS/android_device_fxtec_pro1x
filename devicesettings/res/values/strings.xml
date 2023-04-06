@@ -28,6 +28,9 @@
     <string name="keyboard_keymap_backslash_title">Del key sends backslash</string>
     <string name="keyboard_keymap_backslash_summary">Improves compatibility with language layouts</string>
 
+    <string name="keyboard_keymap_grave_title">Esc key sends grave</string>
+    <string name="keyboard_keymap_grave_summary">Improves compatibility with Hungarian layout</string>
+
     <!-- Touchscreen settings strings -->
     <string name="touchscreen_settings_title">Touchscreen settings</string>
     <string name="touchscreen_settings_summary">Control margin (dead zone)</string>

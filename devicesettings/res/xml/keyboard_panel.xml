@@ -38,6 +38,11 @@
         android:summary="@string/keyboard_keymap_backslash_summary"/>
 
     <androidx.preference.SwitchPreference
+        android:key="keyboard_keymap_grave"
+        android:title="@string/keyboard_keymap_grave_title"
+        android:summary="@string/keyboard_keymap_grave_summary"/>
+
+    <androidx.preference.SwitchPreference
         android:key="keyboard_keymap_spacepower"
         android:title="@string/keyboard_keymap_spacepower_title"
         android:summary="@string/keyboard_keymap_spacepower_summary"/>

@@ -51,6 +51,10 @@ public class Constants {
     public static final String[] KEYBOARD_KEYMAP_BACKSLASH_TEXT = {
         "21:002b:002b"
     };
+    public static final String KEYBOARD_KEYMAP_GRAVE_KEY = "keyboard_keymap_grave";
+    public static final String[] KEYBOARD_KEYMAP_GRAVE_TEXT = {
+        "56:0029:0029"
+    };
     public static final String KEYBOARD_KEYMAP_SYS_FILE =
             "/sys/devices/platform/soc/4a84000.i2c/i2c-0/0-005b/keymap";
 }
