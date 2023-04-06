@@ -28,6 +28,9 @@
     <string name="keyboard_keymap_backslash_title">Del key sends backslash</string>
     <string name="keyboard_keymap_backslash_summary">Improves compatibility with language layouts</string>
 
+    <string name="keyboard_keymap_hungarian_title">Hungarian language</string>
+    <string name="keyboard_keymap_hungarian_summary">Rearranges keys for the Hungarian language overlay</string>
+
     <!-- Touchscreen settings strings -->
     <string name="touchscreen_settings_title">Touchscreen settings</string>
     <string name="touchscreen_settings_summary">Control margin (dead zone)</string>
