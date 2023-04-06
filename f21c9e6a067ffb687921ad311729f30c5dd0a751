@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45c9dc5c_162d1cde",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2023-04-06T19:05:49Z",
+      "side": 1,
+      "message": "Apply keymap mod at boot time",
+      "revId": "f21c9e6a067ffb687921ad311729f30c5dd0a751",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
