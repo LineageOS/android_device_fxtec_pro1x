@@ -38,6 +38,11 @@
         android:summary="@string/keyboard_keymap_backslash_summary"/>
 
     <androidx.preference.SwitchPreference
+        android:key="keyboard_keymap_hungarian"
+        android:title="@string/keyboard_keymap_hungarian_title"
+        android:summary="@string/keyboard_keymap_hungarian_summary"/>
+
+    <androidx.preference.SwitchPreference
         android:key="keyboard_keymap_custom"
         android:title="@string/keyboard_keymap_custom_title"/>
 </PreferenceScreen>

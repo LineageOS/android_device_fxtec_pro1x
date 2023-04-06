@@ -46,6 +46,7 @@ public class KeyboardSettingsFragment extends PreferenceFragment
     private SwitchPreference mKeymapCustomPref;
     private SwitchPreference mKeymapAltGrPref;
     private SwitchPreference mKeymapBackslashPref;
+    private SwitchPreference mKeymapHungarianPref;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -55,6 +56,7 @@ public class KeyboardSettingsFragment extends PreferenceFragment
         mKeymapCustomPref = findPreference(Constants.KEYBOARD_KEYMAP_CUSTOM_KEY);
         mKeymapAltGrPref = findPreference(Constants.KEYBOARD_KEYMAP_ALTGR_KEY);
         mKeymapBackslashPref = findPreference(Constants.KEYBOARD_KEYMAP_BACKSLASH_KEY);
+        mKeymapHungarianPref = findPreference(Constants.KEYBOARD_KEYMAP_HUNGARIAN_KEY);
 
         mLayoutPref.setValue(SystemProperties.get(Constants.KEYBOARD_LAYOUT_PROPERTY,
                     getResources().getString(R.string.keyboard_layout_default)));
@@ -84,6 +86,7 @@ public class KeyboardSettingsFragment extends PreferenceFragment
             case Constants.KEYBOARD_KEYMAP_CUSTOM_KEY:
             case Constants.KEYBOARD_KEYMAP_ALTGR_KEY:
             case Constants.KEYBOARD_KEYMAP_BACKSLASH_KEY:
+            case Constants.KEYBOARD_KEYMAP_HUNGARIAN_KEY:
                 doUpdateKeymapPreferences();
                 break;
         }
@@ -103,6 +106,7 @@ public class KeyboardSettingsFragment extends PreferenceFragment
 
         mKeymapAltGrPref.setChecked(false);
         mKeymapBackslashPref.setChecked(false);
+        mKeymapHungarianPref.setChecked(false);
     }
 
     private void doUpdateKeymapPreferences() {
@@ -111,6 +115,7 @@ public class KeyboardSettingsFragment extends PreferenceFragment
 
         mKeymapAltGrPref.setEnabled(true);
         mKeymapBackslashPref.setEnabled(true);
+        mKeymapHungarianPref.setEnabled(true);
 
         File customKeymapFile = new File(Constants.KEYBOARD_KEYMAP_CFG_FILE);
         if (customKeymapFile.exists()) {
@@ -134,6 +139,8 @@ public class KeyboardSettingsFragment extends PreferenceFragment
                 mKeymapAltGrPref.setEnabled(false);
                 mKeymapBackslashPref.setChecked(false);
                 mKeymapBackslashPref.setEnabled(false);
+                mKeymapHungarianPref.setChecked(false);
+                mKeymapHungarianPref.setEnabled(false);
             } else {
                 mKeymapCustomPref.setChecked(false);
                 Context context = getContext();
@@ -155,6 +162,14 @@ public class KeyboardSettingsFragment extends PreferenceFragment
             for (int i = 0; i < Constants.KEYBOARD_KEYMAP_BACKSLASH_TEXT.length; ++i) {
                KeyboardUtils.writeFile(Constants.KEYBOARD_KEYMAP_SYS_FILE,
                         Constants.KEYBOARD_KEYMAP_BACKSLASH_TEXT[i] + "\n");
+            }
+            mKeymapCustomPref.setChecked(false);
+        }
+
+        if (mKeymapHungarianPref.isChecked()) {
+            for (int i = 0; i < Constants.KEYBOARD_KEYMAP_HUNGARIAN_TEXT.length; ++i) {
+               KeyboardUtils.writeFile(Constants.KEYBOARD_KEYMAP_SYS_FILE,
+                        Constants.KEYBOARD_KEYMAP_HUNGARIAN_TEXT[i] + "\n");
             }
             mKeymapCustomPref.setChecked(false);
         }
