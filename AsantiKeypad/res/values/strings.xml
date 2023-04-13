@@ -1,0 +1,8 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Asanti Keypad</string>
+    <string name="keyboard_layouts_label">F(x)tec defaults</string>
+    <string name="keyboard_layout_fxtec_qwerty_label">F(x)tec QWERTY</string>
+    <string name="keyboard_layout_fxtec_qwertz_label">F(x)tec QWERTZ</string>
+    <string name="keyboard_layout_fxtec_azerty_label">F(x)tec AZERTY</string>
+    <string name="keyboard_layout_fxtec_scandic_label">F(x)tec Scandic</string>
+</resources>

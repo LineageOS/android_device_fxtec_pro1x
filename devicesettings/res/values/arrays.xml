@@ -29,4 +29,11 @@
         <item>/vendor/etc/keyboard/AZERTY_keymap</item>
         <item>/vendor/etc/keyboard/Scandic_keymap</item>
     </string-array>
+
+    <string-array name="keyboard_layout_languages" translatable="false">
+        <item>keyboard_layout_fxtec_qwerty</item>
+        <item>keyboard_layout_fxtec_qwertz</item>
+        <item>keyboard_layout_fxtec_azerty</item>
+        <item>keyboard_layout_fxtec_scandic</item>
+    </string-array>
 </resources>

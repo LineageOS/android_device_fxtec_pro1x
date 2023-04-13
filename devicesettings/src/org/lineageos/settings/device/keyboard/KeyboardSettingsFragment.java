@@ -18,6 +18,8 @@ package org.lineageos.settings.device.keyboard;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.hardware.input.InputDeviceIdentifier;
+import android.hardware.input.InputManager;
 import android.os.Bundle;
 import android.os.SystemProperties;
 import android.preference.PreferenceManager;
@@ -87,6 +89,16 @@ public class KeyboardSettingsFragment extends PreferenceFragment
     private void doUpdateLayoutPreference() {
         String value = mLayoutPref.getValue();
         SystemProperties.set(Constants.KEYBOARD_LAYOUT_PROPERTY, value);
+
+        InputManager iM = InputManager.getInstance();
+        InputDeviceIdentifier iDId = iM.getInputDevice(0).getIdentifier();
+        String lang = KeyboardUtils.getLanguage(getContext(), value);
+        String lD = KeyboardUtils.getLayoutDescriptor(iDId, lang);
+        if (lD != null) {
+            iM.setCurrentKeyboardLayoutForInputDevice(iDId, lD);
+        }
+
+        mKeymapAltGrPref.setChecked(false);
     }
 
     private void doUpdateKeymapPreferences() {
