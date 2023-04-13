@@ -252,7 +252,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keychars/qwerty2.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/qwerty2.kcm \
     $(LOCAL_PATH)/configs/keychars/Vendor_18d1_Product_0200.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/Vendor_18d1_Product_0200.kcm \
     $(LOCAL_PATH)/configs/keychars/Vendor_18d1_Product_5018.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/Vendor_18d1_Product_5018.kcm \
-    $(LOCAL_PATH)/configs/keychars/Virtual.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/Virtual.kcm
+    $(LOCAL_PATH)/configs/keychars/Virtual.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/Virtual.kcm \
+    $(LOCAL_PATH)/configs/keychars/Fxtec_Pro1-X.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/Fxtec_Pro1-X.kcm
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/keylayout/gpio-keys.kl
