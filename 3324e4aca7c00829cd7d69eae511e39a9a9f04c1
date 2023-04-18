@@ -50,6 +50,23 @@
       "message": "Tested with a BlueAnt Ribbon. All audio is played as a series of clicks with aptX is enabled. Audio plays normally with aptX disabled.",
       "revId": "3324e4aca7c00829cd7d69eae511e39a9a9f04c1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4101f0d0_f4d5f374",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2023-04-18T14:30:55Z",
+      "side": 1,
+      "message": "did you try with the 353319 chain or without?",
+      "revId": "3324e4aca7c00829cd7d69eae511e39a9a9f04c1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
