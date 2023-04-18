@@ -67,6 +67,24 @@
       "message": "did you try with the 353319 chain or without?",
       "revId": "3324e4aca7c00829cd7d69eae511e39a9a9f04c1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e342a369_78e92f6a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2023-04-18T16:19:47Z",
+      "side": 1,
+      "message": "The behavior is the same with the full relation chain from 353319 and with just 353320. Any audio is played as a clicking sound with aptX enabled, but works normally with it disabled.",
+      "parentUuid": "4101f0d0_f4d5f374",
+      "revId": "3324e4aca7c00829cd7d69eae511e39a9a9f04c1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
