@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -329,7 +329,9 @@ PRODUCT_PACKAGES += \
     FxtecFrameworksResCommon \
     FxtecSettingsProviderResTarget \
     FxtecWifiResCommon \
+    SettingsResTarget \
     SystemUIResCommon \
+    SystemUIResTarget \
     TelephonyResCommon \
     WifiResCommon \
     WifiResTarget
