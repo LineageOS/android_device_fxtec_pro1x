@@ -329,7 +329,9 @@ PRODUCT_PACKAGES += \
     FxtecFrameworksResCommon \
     FxtecSettingsProviderResTarget \
     FxtecWifiResCommon \
+    SettingsResTarget \
     SystemUIResCommon \
+    SystemUIResTarget \
     TelephonyResCommon \
     WifiResCommon \
     WifiResTarget
