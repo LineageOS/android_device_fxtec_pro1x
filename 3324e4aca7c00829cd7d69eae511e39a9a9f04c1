@@ -33,6 +33,23 @@
       "message": "yeah my test was a bad test case",
       "revId": "3324e4aca7c00829cd7d69eae511e39a9a9f04c1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "acdf3629_877675e5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2023-04-18T01:53:41Z",
+      "side": 1,
+      "message": "Tested with a BlueAnt Ribbon. All audio is played as a series of clicks with aptX is enabled. Audio plays normally with aptX disabled.",
+      "revId": "3324e4aca7c00829cd7d69eae511e39a9a9f04c1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
