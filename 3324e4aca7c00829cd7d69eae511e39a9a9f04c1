@@ -102,6 +102,41 @@
       "message": "do you have means of testing this?",
       "revId": "3324e4aca7c00829cd7d69eae511e39a9a9f04c1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a3e3563_4c926a33",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-04-21T15:13:53Z",
+      "side": 1,
+      "message": "d",
+      "revId": "3324e4aca7c00829cd7d69eae511e39a9a9f04c1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "368005c3_ff4123fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-04-21T15:13:53Z",
+      "side": 1,
+      "message": "I think that this only applies to QTI BT stack. Setting it or not has not effect for me when using aptX or aptX-HD.\n\nAlso note that according to aptx.com, aptX Adaptive Audio is backwards compatible with aptX \u0026 aptX HD in stereo headsets.",
+      "parentUuid": "a2502dc8_ceb6364d",
+      "revId": "3324e4aca7c00829cd7d69eae511e39a9a9f04c1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
