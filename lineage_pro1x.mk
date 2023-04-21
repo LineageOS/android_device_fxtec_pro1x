@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2022-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -16,8 +16,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_pro1x
 PRODUCT_DEVICE := pro1x
-PRODUCT_MANUFACTURER := Fx_tec_Pro1X
-PRODUCT_BRAND := Fx_tec_Pro1X
+PRODUCT_MANUFACTURER := Fxtec
+PRODUCT_BRAND := Fxtec
 PRODUCT_MODEL := QX1050
 
 PRODUCT_SYSTEM_DEVICE := QX1050
