@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "117f72f8_e15b9669",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-04-22T08:25:59Z",
+      "side": 1,
+      "message": "Stock is meh, pro1x is not a manufacturer. I want to match pro1",
+      "revId": "2e47c778b8c28f15492ee033f4883173d415ede4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
