@@ -414,7 +414,7 @@ vendor/lib64/vendor.qti.esepowermanager@1.1.so
 
 # Fingerprint
 vendor/etc/init/init.mafp.rc
-vendor/lib64/hw/fingerprint.default.so
+vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.bengal.so
 vendor/lib64/hw/microarray.fingerprint.default.so
 vendor/lib64/libfprint-x64.so
 
