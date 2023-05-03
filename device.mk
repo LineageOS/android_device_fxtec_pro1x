@@ -60,7 +60,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libsndmonitor \
-    libssrec
+    libssrec \
+    libvolumelistener
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8250/audio
 
