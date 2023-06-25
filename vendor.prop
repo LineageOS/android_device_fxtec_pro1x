@@ -97,7 +97,6 @@ ro.vendor.bluetooth.wipower=false
 
 # Camera
 camera.disable_zsl_mode=1
-vendor.debug.camera.eisv3enable=1
 
 # Chipset
 ro.soc.manufacturer=QTI
