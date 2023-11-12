@@ -201,6 +201,7 @@ PRODUCT_COPY_FILES += \
 
 # Health
 PRODUCT_PACKAGES += \
+    android.hardware.health@2.1.vendor:64 \
     android.hardware.health-service.qti
 
 # HIDL
