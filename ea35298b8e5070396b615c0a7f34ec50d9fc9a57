@@ -16,6 +16,23 @@
       "message": "Just remove the section, will use system sdk which is the same",
       "revId": "ea35298b8e5070396b615c0a7f34ec50d9fc9a57",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27aa0e76_99c715a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2023-11-19T19:46:48Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/q/Ia623282960775569325714ab3bff5ad027776352 then you probably also need to do https://review.lineageos.org/q/I12d27c23624eb5259da582b86ac1bd7572754f0c",
+      "revId": "ea35298b8e5070396b615c0a7f34ec50d9fc9a57",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
