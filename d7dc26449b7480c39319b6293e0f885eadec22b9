@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c89cb8a_2dd0b8b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33296
+      },
+      "writtenOn": "2023-12-24T09:10:31Z",
+      "side": 1,
+      "message": "Hi!\nWith those settings i achieved a great operational stability of fxtec pro1x. No apps are crashing anymore. Multitasking works as expected. I tested if for 10 days.",
+      "revId": "d7dc26449b7480c39319b6293e0f885eadec22b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
