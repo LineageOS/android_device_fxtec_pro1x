@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b9483a97_61da877e",
+        "filename": "vendor.prop",
+        "patchSetId": 3
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-12-25T19:25:47Z",
+      "side": 1,
+      "message": "how do we perform with this one removed, and all else left as is?\n\nE.g. if we use PSI, but the other values you\u0027ve set - how do we fare?",
+      "range": {
+        "startLine": 174,
+        "startChar": 0,
+        "endLine": 174,
+        "endChar": 20
+      },
+      "revId": "f38864b1912b7af1b7c61a1552a88362af21e195",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
