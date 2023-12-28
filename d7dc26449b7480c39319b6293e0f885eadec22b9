@@ -16,6 +16,24 @@
       "message": "Hi!\nWith those settings i achieved a great operational stability of fxtec pro1x. No apps are crashing anymore. Multitasking works as expected. I tested if for 10 days.",
       "revId": "d7dc26449b7480c39319b6293e0f885eadec22b9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d594ed2c_99c9c753",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33296
+      },
+      "writtenOn": "2023-12-28T13:50:39Z",
+      "side": 1,
+      "message": "Hello Nolen!\nI\u0027m testing now with following settings:\n\nro.lmk.kill_heaviest_task\u003dtrue\nro.lmk.use_psi\u003dtrue\nro.lmk.use_minfree_levels\u003dfalse\nro.lmk.thrashing_limit_decay\u003d50\nro.lmk.downgrade_pressure\u003d30\n\nWorks well for 3 days,",
+      "parentUuid": "0c89cb8a_2dd0b8b2",
+      "revId": "d7dc26449b7480c39319b6293e0f885eadec22b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

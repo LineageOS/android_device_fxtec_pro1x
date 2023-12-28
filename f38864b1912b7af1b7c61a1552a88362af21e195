@@ -22,6 +22,30 @@
       },
       "revId": "f38864b1912b7af1b7c61a1552a88362af21e195",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8cf517ee_0b4f6ce1",
+        "filename": "vendor.prop",
+        "patchSetId": 3
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 33296
+      },
+      "writtenOn": "2023-12-28T13:50:39Z",
+      "side": 1,
+      "message": "Hi Nolen!\nI installed recent update and now testing same settings but with ro.lmk.use_psi\u003dtrue instead of minfree levels.\nI\u0027ll let you know in next days about the outcome.\nI\u0027m not a retrograde, psi as a advanced solution should be preferred.\nWill either adjust the PR or answer you here.\nBest Regards,\nStanislav",
+      "parentUuid": "b9483a97_61da877e",
+      "range": {
+        "startLine": 174,
+        "startChar": 0,
+        "endLine": 174,
+        "endChar": 20
+      },
+      "revId": "f38864b1912b7af1b7c61a1552a88362af21e195",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
