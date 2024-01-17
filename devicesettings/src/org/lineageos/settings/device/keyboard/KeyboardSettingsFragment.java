@@ -27,7 +27,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import androidx.preference.ListPreference;
-import androidx.preference.PreferenceFragment;
+import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.SwitchPreferenceCompat;
 
 import org.lineageos.internal.util.FileUtils;
@@ -35,7 +35,7 @@ import org.lineageos.settings.device.R;
 
 import java.io.File;
 
-public class KeyboardSettingsFragment extends PreferenceFragment
+public class KeyboardSettingsFragment extends PreferenceFragmentCompat
         implements SharedPreferences.OnSharedPreferenceChangeListener {
 
     private static final String TAG = KeyboardSettingsFragment.class.getSimpleName();
@@ -50,7 +50,7 @@ public class KeyboardSettingsFragment extends PreferenceFragment
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
-        addPreferencesFromResource(R.xml.keyboard_panel);
+        setPreferencesFromResource(R.xml.keyboard_panel, rootKey);
 
         mLayoutPref = findPreference(Constants.KEYBOARD_LAYOUT_KEY);
         mKeymapCustomPref = findPreference(Constants.KEYBOARD_KEYMAP_CUSTOM_KEY);

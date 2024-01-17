@@ -10,13 +10,13 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
-import androidx.preference.PreferenceFragment;
+import androidx.preference.PreferenceFragmentCompat;
 
 import org.lineageos.internal.util.FileUtils;
 import org.lineageos.settings.device.R;
 import org.lineageos.settings.device.widget.SeekBarPreference;
 
-public class TouchscreenSettingsFragment extends PreferenceFragment
+public class TouchscreenSettingsFragment extends PreferenceFragmentCompat
         implements SharedPreferences.OnSharedPreferenceChangeListener {
 
     private static final String TAG = TouchscreenSettingsFragment.class.getSimpleName();
@@ -26,7 +26,7 @@ public class TouchscreenSettingsFragment extends PreferenceFragment
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
-        addPreferencesFromResource(R.xml.touchscreen_panel);
+        setPreferencesFromResource(R.xml.touchscreen_panel, rootKey);
 
         mMarginSeekBar = findPreference(Constants.TOUCHSCREEN_MARGIN_KEY);
 
