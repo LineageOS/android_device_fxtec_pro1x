@@ -27,22 +27,22 @@
         android:entryValues="@array/keyboard_layout_values"
         android:summary="%s" />
 
-    <androidx.preference.SwitchPreference
+    <androidx.preference.SwitchPreferenceCompat
         android:key="keyboard_keymap_altgr"
         android:title="@string/keyboard_keymap_altgr_title"
         android:summary="@string/keyboard_keymap_altgr_summary"/>
 
-    <androidx.preference.SwitchPreference
+    <androidx.preference.SwitchPreferenceCompat
         android:key="keyboard_keymap_backslash"
         android:title="@string/keyboard_keymap_backslash_title"
         android:summary="@string/keyboard_keymap_backslash_summary"/>
 
-    <androidx.preference.SwitchPreference
+    <androidx.preference.SwitchPreferenceCompat
         android:key="keyboard_keymap_hungarian"
         android:title="@string/keyboard_keymap_hungarian_title"
         android:summary="@string/keyboard_keymap_hungarian_summary"/>
 
-    <androidx.preference.SwitchPreference
+    <androidx.preference.SwitchPreferenceCompat
         android:key="keyboard_keymap_custom"
         android:title="@string/keyboard_keymap_custom_title"/>
 </PreferenceScreen>
