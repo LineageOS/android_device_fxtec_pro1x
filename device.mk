@@ -108,6 +108,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
     libcamera_metadata_shim \
+    libexif.vendor:64 \
+    libyuv.vendor:64 \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
@@ -344,8 +346,12 @@ PRODUCT_PACKAGES += \
 
 # QMI
 PRODUCT_PACKAGES += \
+    libcurl.vendor:64 \
     libjson \
+    libjsoncpp.vendor:64 \
+    libnetutils.vendor:64 \
     libqti_vndfwk_detect.vendor \
+    libsqlite.vendor:64 \
     libvndfwk_detect_jni.qti.vendor
 
 # RIL
@@ -470,6 +476,7 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl \
+    libpng.vendor \
     libwfdaac_vendor
 
 PRODUCT_BOOT_JARS += \
