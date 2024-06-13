@@ -344,8 +344,12 @@ PRODUCT_PACKAGES += \
 
 # QMI
 PRODUCT_PACKAGES += \
+    libcurl.vendor:64 \
     libjson \
+    libjsoncpp.vendor:64 \
+    libnetutils.vendor:64 \
     libqti_vndfwk_detect.vendor \
+    libsqlite.vendor:64 \
     libvndfwk_detect_jni.qti.vendor
 
 # RIL
@@ -470,6 +474,7 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl \
+    libpng.vendor \
     libwfdaac_vendor
 
 PRODUCT_BOOT_JARS += \
