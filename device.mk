@@ -481,6 +481,8 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
+    libgui_shim \
+    libinput_shim \
     libnl \
     libpng.vendor \
     libwfdaac_vendor
