@@ -25,7 +25,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-fxtec
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="QX1050_2_EEA-user 11 RKQ1.211130.001 eng.leilia.20220913 release-keys" \
     BuildFingerprint=Fx_tec_Pro1X/QX1050_2_EEA/QX1050:11/RKQ1.211130.001/eng.leilia.20220913:user/release-keys \
-    DeviceName=QX1050
     DeviceProduct=QX1050_2_EEA \
     SystemName=QX1050_2_EEA \
     SystemDevice=QX1050
