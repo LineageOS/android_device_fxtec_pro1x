@@ -40,7 +40,6 @@ libs_add_vendor_suffix = (
 )
 
 libs_remove = (
-    'libril',
     'libc2dcolorconvert',
     'libOmxCore',
     'libplatformconfig',
