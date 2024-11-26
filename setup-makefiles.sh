@@ -17,8 +17,6 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 ANDROID_ROOT="${MY_DIR}/../../.."
 
-export TARGET_ENABLE_CHECKELF=false
-
 HELPER="${ANDROID_ROOT}/tools/extract-utils/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
@@ -36,6 +34,33 @@ function vendor_imports() {
 		"vendor/qcom/opensource/commonsys-intf/display",
 		"vendor/qcom/opensource/dataservices",
 EOF
+}
+
+function lib_to_package_fixup_vendor_variants() {
+    if [ "$2" != "vendor" ]; then
+        return 1
+    fi
+    case "$1" in
+        com.qualcomm.qti.dpm.api@1.0 | \
+            libmmosal | \
+            vendor.qti.hardware.wifidisplaysession@1.0 | \
+            vendor.qti.imsrtpservice@3.0)
+            echo "$1_vendor"
+            ;;
+        libril | \
+            libc2dcolorconvert | \
+            libOmxCore | \
+            libplatformconfig | \
+            libwpa_client) ;;
+        *)
+            return 1
+            ;;
+    esac
+}
+function lib_to_package_fixup() {
+    lib_to_package_fixup_clang_rt_ubsan_standalone "$1" ||
+        lib_to_package_fixup_proto_3_9_1 "$1" ||
+        lib_to_package_fixup_vendor_variants "$@"
 }
 
 # Initialize the helper
