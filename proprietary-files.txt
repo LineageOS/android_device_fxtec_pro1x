@@ -264,7 +264,7 @@ vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 # CNE
 vendor/app/CneApp/CneApp.apk
 vendor/bin/cnd
-vendor/bin/mutualex
+vendor/bin/mutualex;DISABLE_CHECKELF
 vendor/etc/cne/mwqem.conf
 vendor/etc/cne/profileMwqem.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
@@ -298,12 +298,12 @@ vendor/etc/default-permissions/com.qualcomm.qti.cne.xml
 vendor/etc/init/cnd.rc
 vendor/etc/init/mutualex.rc
 vendor/lib/libxml.so
-vendor/lib64/libcne.so
+vendor/lib64/libcne.so;DISABLE_CHECKELF
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libcneoplookup.so
 vendor/lib64/libcneqmiutils.so
 vendor/lib64/libwms.so
-vendor/lib64/libwqe.so
+vendor/lib64/libwqe.so;DISABLE_CHECKELF
 vendor/lib64/libxml.so
 vendor/lib64/vendor.qti.data.factory@2.0.so
 vendor/lib64/vendor.qti.data.factory@2.1.so
@@ -382,7 +382,7 @@ system_ext/lib64/vendor.qti.diaghal@1.0.so
 system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libdpmqmihal.so
 
 # DRM
@@ -440,7 +440,7 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/app/CACertService/CACertService.apk
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/bin/loc_launcher
-vendor/bin/lowi-server
+vendor/bin/lowi-server;DISABLE_CHECKELF
 vendor/bin/mlid
 vendor/bin/slim_daemon
 vendor/bin/tloc_daemon
@@ -564,7 +564,7 @@ system_ext/lib64/libimsmedia_jni.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/priv-app/ims/ims.apk
 vendor/bin/ims_rtp_daemon
-vendor/bin/imsdatadaemon
+vendor/bin/imsdatadaemon;DISABLE_CHECKELF
 vendor/bin/imsqmidaemon
 vendor/bin/imsrcsd
 vendor/etc/init/ims_rtp_daemon.rc
@@ -613,7 +613,7 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so
 vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
-vendor/lib64/vendor.qti.imsrtpservice@3.0.so
+vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_vendor
 
 # IPA firmware
 vendor/etc/init/ipa_fws.rc
@@ -661,8 +661,8 @@ vendor/etc/media_codecs_vendor_audio.xml
 vendor/etc/media_profiles.xml
 vendor/etc/media_profiles_vendor.xml
 vendor/etc/system_properties.xml
-vendor/lib/libmmosal.so
-vendor/lib64/libmmosal.so
+vendor/lib/libmmosal.so;MODULE_SUFFIX=_vendor
+vendor/lib64/libmmosal.so;MODULE_SUFFIX=_vendor
 
 # Native public libraries
 vendor/etc/public.libraries.txt
@@ -698,9 +698,9 @@ vendor/lib/libOmxG711Dec.so
 vendor/lib/libOmxMpeghDecSw.so
 vendor/lib/libOmxMpeghEncSw.so
 vendor/lib/libOmxQcelp13Dec.so
-vendor/lib/libOmxSwVdec.so
-vendor/lib/libOmxSwVencMpeg4.so
-vendor/lib/libOmxVideoDSMode.so
+vendor/lib/libOmxSwVdec.so;DISABLE_CHECKELF
+vendor/lib/libOmxSwVencMpeg4.so;DISABLE_CHECKELF
+vendor/lib/libOmxVideoDSMode.so;DISABLE_CHECKELF
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libdsd2pcm.so
 vendor/lib/libswvdec.so
@@ -720,8 +720,8 @@ vendor/lib64/libOmxEvrcDec.so
 vendor/lib64/libOmxG711Dec.so
 vendor/lib64/libOmxMpeghEncSw.so
 vendor/lib64/libOmxQcelp13Dec.so
-vendor/lib64/libOmxSwVdec.so
-vendor/lib64/libOmxSwVencMpeg4.so
+vendor/lib64/libOmxSwVdec.so;DISABLE_CHECKELF
+vendor/lib64/libOmxSwVencMpeg4.so;DISABLE_CHECKELF
 vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libswvdec.so
 
@@ -881,7 +881,7 @@ vendor/lib64/libril-qc-hal-qmi.so
 vendor/lib64/libril-qc-logger.so
 vendor/lib64/libril-qc-ltedirectdisc.so
 vendor/lib64/libril-qc-radioconfig.so
-vendor/lib64/libril-qcril-hook-oem.so
+vendor/lib64/libril-qcril-hook-oem.so;DISABLE_CHECKELF
 vendor/lib64/librilqmiservices.so
 vendor/lib64/libsettings.so
 vendor/lib64/libsystem_health_mon.so
@@ -1245,5 +1245,5 @@ vendor/lib/libwfduibcsinkinterface_proprietary.so
 vendor/lib/libwfduibcsrc_proprietary.so
 vendor/lib/libwfduibcsrcinterface_proprietary.so
 vendor/lib/libwfdutils_proprietary.so
-vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
+vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
