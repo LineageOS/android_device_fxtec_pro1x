@@ -67,6 +67,9 @@ vendor/lib/soundfx/libshoebox.so
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib/libbtnv.so
+vendor/lib/libsoc_helper.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libsoc_helper.so
@@ -296,6 +299,7 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml
 vendor/etc/default-permissions/com.qualcomm.qti.cne.xml
 vendor/etc/init/cnd.rc
 vendor/etc/init/mutualex.rc
+vendor/lib/libxml.so
 vendor/lib64/libcne.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libcneoplookup.so
@@ -738,7 +742,10 @@ vendor/lib/libperfioctl.so
 vendor/lib/libqti-perfd-client.so
 vendor/lib/libqti-perfd.so
 vendor/lib/libqti-util.so
+vendor/lib/vendor.qti.memory.pasrmanager@1.0.so
+vendor/lib/vendor.qti.memory.pasrmanager@1.1.so
 vendor/lib64/liblearningmodule.so
+vendor/lib64/liblmutils-ns.so
 vendor/lib64/libmeters-ns.so
 vendor/lib64/libmeters.so
 vendor/lib64/libperfconfig.so
@@ -854,6 +861,8 @@ vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.tftp.rc
 vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
+vendor/lib/libconfigdb.so
+vendor/lib/libnetmgr.so
 vendor/lib64/deviceInfoServiceModule.so
 vendor/lib64/libconfigdb.so
 vendor/lib64/liblqe.so
