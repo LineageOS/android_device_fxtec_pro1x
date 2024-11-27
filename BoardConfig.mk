@@ -175,7 +175,7 @@ BOARD_USES_LEGACY_IMS_SEPOLICY := true
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Security
-VENDOR_SECURITY_PATCH := 2022-06-01
+VENDOR_SECURITY_PATCH := 2022-09-01
 
 # SEPolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
