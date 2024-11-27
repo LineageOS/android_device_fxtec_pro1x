@@ -1,4 +1,4 @@
-# Firmware - from FxTec Pro1-X (RKQ1.211130.001) - (factory image).
+# Firmware - from FxTec Pro1-X Fx_tec_Pro1X/QX1050_2_EEA/QX1050:11/RKQ1.211130.001/eng.leilia.20230417:user/release-keys - (OTA image).
 
 abl.img;AB
 bluetooth.img;AB
