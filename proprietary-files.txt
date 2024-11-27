@@ -1,6 +1,12 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
 ## from FxTec Pro1-X Fx_tec_Pro1X/QX1050_2_EEA/QX1050:11/RKQ1.211130.001/eng.leilia.20230417:user/release-keys.
 
+# Current blobs with ELF checks disabled:
+# mutualex, imsdatadaemon, libcne, libwqe, lowi-server depend on libwpa_client, which is a gnu makefile target
+# libOmxSwVdec, libOmxSwVencMpeg4, libOmxVideoDSMode depend on libOmxCore, which is a gnu makefile target
+# libril-qcril-hook-oem depends on libril , which is a gnu makefile target
+
+
 # ACDB
 vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_General_cal.acdb
