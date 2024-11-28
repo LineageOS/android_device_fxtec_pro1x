@@ -4,7 +4,7 @@
 # Current blobs with ELF checks disabled:
 # mutualex, imsdatadaemon, libcne, libwqe, lowi-server depend on libwpa_client, which is a gnu makefile target
 # libOmxSwVdec, libOmxSwVencMpeg4, libOmxVideoDSMode depend on libOmxCore, which is a gnu makefile target
-# libril-qcril-hook-oem depends on libril , which is a gnu makefile target
+# libril-qcril-hook-oem depends on libril, which is a gnu makefile target
 
 
 # ACDB
