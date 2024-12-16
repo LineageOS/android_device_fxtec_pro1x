@@ -16,6 +16,24 @@
       "message": "Are the binaries and init scripts needed? They weren\u0027t required on dre. https://review.lineageos.org/q/I791e4ca732feabd543dadc885f4ab0940e1cf3f4",
       "revId": "df94479c6032c2a8c7f6d9e578e97fbf634362e2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f04a73a8_6568e13d",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 18
+      },
+      "lineNbr": 443,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-12-16T20:21:17Z",
+      "side": 1,
+      "message": "maybe not, but I can\u0027t get it working period at the moment, so just trying to get it working.",
+      "parentUuid": "247c1717_111254bd",
+      "revId": "df94479c6032c2a8c7f6d9e578e97fbf634362e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
