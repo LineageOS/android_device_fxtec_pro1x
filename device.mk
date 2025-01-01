@@ -139,7 +139,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
+<<<<<<< PATCH SET (4ed7a6 pro1x: Update display flags & packages)
+    android.hardware.memtrack@1.0-impl \
+    android.hardware.memtrack@1.0-service \
+=======
     gralloc.bengal \
+>>>>>>> BASE      (3d35f6 pro1x: Switch to QTI Memtrack AIDL HAL)
     libdisplayconfig.qti \
     libdisplayconfig.system.qti \
     libqdMetaData \
