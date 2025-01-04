@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d11010ed_65c1ae59",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-01-04T19:57:04Z",
+      "side": 1,
+      "message": "sort blobs list did this, and idc for a dedicated change.",
+      "revId": "0af05f2f41f6f72ee401baa5d67c89760e970ee6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
