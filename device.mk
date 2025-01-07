@@ -292,10 +292,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti.vendor
 
-# RIL
-PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full
-
 # Seccomp policy
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
