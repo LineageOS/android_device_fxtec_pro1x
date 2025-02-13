@@ -342,6 +342,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.qti
 
+# UFFD GC
+PRODUCT_ENABLE_UFFD_GC := false
+OVERRIDE_ENABLE_UFFD_GC := false
+
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
