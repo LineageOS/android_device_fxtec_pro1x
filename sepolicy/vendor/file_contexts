@@ -5,9 +5,6 @@
 /vendor/etc/keyboard(/.*)?                                                 u:object_r:vendor_keylayout_file:s0
 /vendor/bin/init.set_layout.sh                                             u:object_r:vendor_qti_init_shell_exec:s0
 
-# Lights
-/vendor/bin/hw/android\.hardware\.lights-service\.pro1x                    u:object_r:hal_light_default_exec:s0
-
 # SSR
 /sys/devices/platform/soc/5ab0000\.qcom,venus/subsys[0-9]+/name            u:object_r:vendor_sysfs_ssr:s0
 /sys/devices/platform/soc/5ab0000\.qcom,venus/subsys[0-9]+/restart_level   u:object_r:vendor_sysfs_ssr_toggle:s0
