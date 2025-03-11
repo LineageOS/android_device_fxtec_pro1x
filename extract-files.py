@@ -40,9 +40,6 @@ libs_add_vendor_suffix = (
 )
 
 libs_remove = (
-    'libc2dcolorconvert',
-    'libOmxCore',
-    'libplatformconfig',
     'libwpa_client',
 )
 

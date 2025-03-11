@@ -2,7 +2,6 @@
 ## from FxTec Pro1-X Fx_tec_Pro1X/QX1050_2_EEA/QX1050:11/RKQ1.211130.001/eng.leilia.20230417:user/release-keys.
 
 # Current blobs with ELF checks disabled:
-# libOmxVideoDSMode depend on libOmxCore, which is a gnu makefile target
 # mutualex, imsdatadaemon, libcne, libwqe, lowi-server depend on libwpa_client, which is a gnu makefile target
 
 # ACDB
@@ -1106,7 +1105,7 @@ vendor/etc/seccomp_policy/wfdvndservice.policy
 vendor/etc/seccomp_policy/wifidisplayhalservice.policy
 vendor/etc/wfdconfig.xml
 vendor/lib/libFileMux_proprietary.so
-vendor/lib/libOmxVideoDSMode.so;DISABLE_CHECKELF
+vendor/lib/libOmxVideoDSMode.so
 vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libmmrtpdecoder_proprietary.so
 vendor/lib/libmmrtpencoder_proprietary.so
