@@ -16,6 +16,23 @@
       "message": "matches pro1 even",
       "revId": "a54d2b0bfb0b61c8db144c5e2aa78d11bc5fb49f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47e87e44_b9375807",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2025-03-12T22:29:26Z",
+      "side": 1,
+      "message": "Could always convert to\n\nprebuilt_usr_keylayout {\n    name: \"foo.kl\",\n    src: \"foo.kl\",\n    vendor: true,\n}",
+      "revId": "a54d2b0bfb0b61c8db144c5e2aa78d11bc5fb49f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
