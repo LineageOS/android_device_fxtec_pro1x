@@ -217,7 +217,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keychars/Fxtec_Pro1-X.kcm:$(TARGET_COPY_OUT_VENDOR)/usr/keychars/Fxtec_Pro1-X.kcm
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/keylayout/gpio-keys.kl
+    $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
 
 # Lights
 PRODUCT_PACKAGES += \
