@@ -97,7 +97,7 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_SOURCE := kernel/fxtec/sm6115
-TARGET_KERNEL_CONFIG := lineage-pro1x_defconfig
+TARGET_KERNEL_CONFIG := vendor/bengal-perf_defconfig vendor/ext_config/pro1x.config
 
 # Kernel modules - Audio
 TARGET_MODULE_ALIASES += \
