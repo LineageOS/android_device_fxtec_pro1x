@@ -1,2 +1,5 @@
 allow hal_fingerprint_default fpsensor_fp_device:chr_file rw_file_perms;
 allow hal_fingerprint_default tee_device:chr_file rw_file_perms;
+
+# libfprint-x64.so reading ro.serialno, not necessary
+dontaudit hal_fingerprint_default serialno_prop:file r_file_perms;
