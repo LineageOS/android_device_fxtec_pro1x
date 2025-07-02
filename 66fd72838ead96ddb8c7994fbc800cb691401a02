@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "933e06e3_7709a2c1",
+        "filename": "sepolicy/vendor/vendor_init.te",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-07-02T04:46:39Z",
+      "side": 1,
+      "message": "The right fix is https://review.lineageos.org/q/I4b94e0e188f8b420a608cc2e0d97e4b960381c31",
+      "revId": "66fd72838ead96ddb8c7994fbc800cb691401a02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
