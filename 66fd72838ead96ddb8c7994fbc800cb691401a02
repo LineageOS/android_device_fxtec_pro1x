@@ -16,6 +16,24 @@
       "message": "The right fix is https://review.lineageos.org/q/I4b94e0e188f8b420a608cc2e0d97e4b960381c31",
       "revId": "66fd72838ead96ddb8c7994fbc800cb691401a02",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd025a73_3c2d116f",
+        "filename": "sepolicy/vendor/vendor_init.te",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-07-03T02:13:19Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_fxtec_pro1x/+/436057",
+      "parentUuid": "933e06e3_7709a2c1",
+      "revId": "66fd72838ead96ddb8c7994fbc800cb691401a02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
