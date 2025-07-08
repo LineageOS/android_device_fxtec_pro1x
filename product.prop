@@ -26,6 +26,9 @@ bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 
+# BPF
+ro.bpf.kver_override=5.10.239
+
 # GMS
 ro.com.google.ime.kb_pad_port_l=10
 ro.com.google.ime.kb_pad_port_r=10
