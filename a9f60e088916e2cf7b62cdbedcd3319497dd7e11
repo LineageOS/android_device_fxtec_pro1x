@@ -22,6 +22,30 @@
       },
       "revId": "a9f60e088916e2cf7b62cdbedcd3319497dd7e11",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce39b19e_a45e1be0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-07-12T21:13:36Z",
+      "side": 1,
+      "message": "I don\u0027t see why - someone else may have it around and it\u0027s incorrect - why not put it in the same change? It\u0027s not like every commit on a change-id should/has to be identical... I guess I just don\u0027t see the point in separating that out.\n\nBut, not just my tree for this device, so ACK.",
+      "parentUuid": "1b37b527_69d928c6",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 42
+      },
+      "revId": "a9f60e088916e2cf7b62cdbedcd3319497dd7e11",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
