@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30d2f4e5_6100a7f7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-07-13T03:56:29Z",
+      "side": 1,
+      "message": "this was missed in the original - which was already corrected - Per the ask, didn\u0027t use mixup in device tree.",
+      "revId": "7e394cb88631090c363062307ef4ed0bf27fa2a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
