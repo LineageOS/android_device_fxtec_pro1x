@@ -10,13 +10,13 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
-import androidx.preference.PreferenceFragmentCompat;
+import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 import org.lineageos.internal.util.FileUtils;
 import org.lineageos.settings.device.R;
 import org.lineageos.settings.device.widget.SeekBarPreference;
 
-public class TouchscreenSettingsFragment extends PreferenceFragmentCompat
+public class TouchscreenSettingsFragment extends SettingsBasePreferenceFragment
         implements SharedPreferences.OnSharedPreferenceChangeListener {
 
     private static final String TAG = TouchscreenSettingsFragment.class.getSimpleName();
