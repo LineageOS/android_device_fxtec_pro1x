@@ -27,15 +27,16 @@ import android.util.Log;
 import android.widget.Toast;
 
 import androidx.preference.ListPreference;
-import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.SwitchPreferenceCompat;
+
+import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 import org.lineageos.internal.util.FileUtils;
 import org.lineageos.settings.device.R;
 
 import java.io.File;
 
-public class KeyboardSettingsFragment extends PreferenceFragmentCompat
+public class KeyboardSettingsFragment extends SettingsBasePreferenceFragment
         implements SharedPreferences.OnSharedPreferenceChangeListener {
 
     private static final String TAG = KeyboardSettingsFragment.class.getSimpleName();
