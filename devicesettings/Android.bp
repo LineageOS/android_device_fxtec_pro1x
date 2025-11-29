@@ -20,6 +20,12 @@ android_app {
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },
+    required: [
+        "QWERTY_keymap",
+        "QWERTZ_keymap",
+        "AZERTY_keymap",
+        "Scandic_keymap",
+    ],
 }
 
 prebuilt_etc {
