@@ -66,6 +66,18 @@
             </intent-filter>
         </activity>
 
+        <receiver
+            android:name=".keyboard.InputDeviceReceiver"
+            android:label="@string/keyboard_layouts_label"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.hardware.input.action.QUERY_KEYBOARD_LAYOUTS" />
+            </intent-filter>
+            <meta-data
+                android:name="android.hardware.input.metadata.KEYBOARD_LAYOUTS"
+                android:resource="@xml/keyboard_layouts" />
+        </receiver>
+
         <activity
             android:name=".setupwizard.SetupWizardActivity"
             android:theme="@style/Theme.SetupWizard"

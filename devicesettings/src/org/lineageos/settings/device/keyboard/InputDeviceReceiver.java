@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package org.lineageos.asantikeypad;
+package org.lineageos.settings.device.keyboard;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
