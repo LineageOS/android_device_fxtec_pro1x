@@ -198,8 +198,7 @@ PRODUCT_PACKAGES += \
 # Keyboard
 PRODUCT_PACKAGES += \
     init.keyboard.rc \
-    init.set_layout.sh \
-    AsantiKeypad
+    init.set_layout.sh
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/Builtin_Keyboard.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/Builtin_Keyboard.idc
