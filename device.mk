@@ -199,7 +199,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.keyboard.rc \
     init.set_layout.sh \
-    AsantiKeypad \
     QWERTY_keymap \
     QWERTZ_keymap \
     AZERTY_keymap \
