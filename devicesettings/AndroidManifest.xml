@@ -15,7 +15,7 @@
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="@string/device_settings_app_name"
-        android:theme="@style/Theme.SubSettingsBase"
+        android:theme="@style/Theme.SubSettingsBase.Expressive"
         android:defaultToDeviceProtectedStorage="true"
         android:directBootAware="true"
         android:persistent="true">
@@ -48,8 +48,7 @@
         <activity
             android:name=".doze.DozeSettingsActivity"
             android:exported="false"
-            android:label="@string/ambient_display_title"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:label="@string/ambient_display_title">
             <intent-filter>
                 <action android:name="org.lineageos.settings.device.DOZE_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
