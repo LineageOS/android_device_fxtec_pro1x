@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2022 The LineageOS Project
+     Copyright (C) 2022-2025 The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <PreferenceScreen
@@ -8,12 +8,12 @@
     android:key="touchscreen_settings"
     android:title="@string/touchscreen_settings_title">
 
-    <org.lineageos.settings.device.widget.SeekBarPreference
+    <com.android.settingslib.widget.SliderPreference
         android:key="touchscreen_margin"
         android:title="@string/touchscreen_margin_title"
         android:summary="@string/touchscreen_margin_summary"
-        android:layout="@layout/preference_slider"
         android:defaultValue="@integer/touchscreen_margin_default"
+        android:min="@integer/touchscreen_margin_min"
         android:max="@integer/touchscreen_margin_max" />
 
 </PreferenceScreen>
