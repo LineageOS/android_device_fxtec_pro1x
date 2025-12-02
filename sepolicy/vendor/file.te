@@ -1,1 +1,2 @@
 type sysfs_keyboard, fs_type, sysfs_type;
+type sysfs_touchpanel, fs_type, sysfs_type;
