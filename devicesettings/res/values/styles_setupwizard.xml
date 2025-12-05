@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2021-2022 The LineageOS Project
+     Copyright (C) 2021-2025 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <style name="Theme.SetupWizard" parent="@style/SudDynamicColorThemeGlifV3"/>
+    <style name="Theme.SetupWizard" parent="@style/SudFullDynamicColorThemeGlifV3.DayNight"/>
 
     <style name="SpinnerItem">
         <item name="android:textSize">15sp</item>
