@@ -1,9 +1,12 @@
 /*
- * Copyright (C) 2022 The LineageOS Project
+ * Copyright (C) 2022-2025 The LineageOS Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
 package org.lineageos.settings.device.doze;
+
+import static android.provider.Settings.Secure.DOZE_ALWAYS_ON;
+import static android.provider.Settings.Secure.DOZE_ENABLED;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,9 +17,6 @@ import android.provider.Settings;
 import android.util.Log;
 
 import androidx.preference.PreferenceManager;
-
-import static android.provider.Settings.Secure.DOZE_ALWAYS_ON;
-import static android.provider.Settings.Secure.DOZE_ENABLED;
 
 public final class DozeUtils {
 
