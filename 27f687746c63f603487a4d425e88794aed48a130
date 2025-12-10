@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49d914c2_2f2ddcdf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-10T19:02:38Z",
+      "side": 1,
+      "message": "Not sure what was even the point of having such mad structure.\n\nTODO: Run through beautify scripts.",
+      "revId": "27f687746c63f603487a4d425e88794aed48a130",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
