@@ -261,19 +261,14 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
-    CarrierConfigResCommon \
-    FrameworksResCommon \
-    FrameworksResTarget \
-    FxtecFrameworksResCommon \
-    FxtecSettingsProviderResTarget \
-    FxtecWifiResCommon \
-    SettingsResTarget \
-    SystemUIResCommon \
-    SystemUIResTarget \
-    TelephonyResCommon \
-    TrebuchetDeviceOverlay \
-    WifiResCommon \
-    WifiResTarget
+    CarrierConfigOverlay \
+    FrameworksOverlay \
+    SettingsOverlay \
+    SettingsProviderOverlay \
+    SystemUIOverlay \
+    TelephonyOverlay \
+    TrebuchetOverlay \
+    WifiOverlay
 
 # Partitions
 PRODUCT_PACKAGES += \
