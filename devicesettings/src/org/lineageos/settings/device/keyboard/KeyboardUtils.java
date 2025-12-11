@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022 The LineageOS Project
+ * Copyright (C) 2022-2025 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -164,9 +164,9 @@ public class KeyboardUtils {
         }
     }
 
-    public static String getLayoutDescriptor(InputDeviceIdentifier iDId, String layoutName) {
+    public static String getLayoutDescriptor(InputManager iM, InputDeviceIdentifier iDId,
+            String layoutName) {
         String result = null;
-        InputManager iM = InputManager.getInstance();
 
         for (KeyboardLayout layout : iM.getKeyboardLayoutsForInputDevice(iDId)) {
             String layoutDescriptor = layout.getDescriptor();
