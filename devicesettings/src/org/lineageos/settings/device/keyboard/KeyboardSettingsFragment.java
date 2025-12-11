@@ -97,10 +97,10 @@ public class KeyboardSettingsFragment extends SettingsBasePreferenceFragment
         String value = mLayoutPref.getValue();
         SystemProperties.set(Constants.KEYBOARD_LAYOUT_PROPERTY, value);
 
-        InputManager iM = InputManager.getInstance();
+        InputManager iM = getContext().getSystemService(InputManager.class);
         InputDeviceIdentifier iDId = iM.getInputDevice(0).getIdentifier();
         String lang = KeyboardUtils.getLanguage(getContext(), value);
-        String lD = KeyboardUtils.getLayoutDescriptor(iDId, lang);
+        String lD = KeyboardUtils.getLayoutDescriptor(iM, iDId, lang);
         if (lD != null) {
             iM.setCurrentKeyboardLayoutForInputDevice(iDId, lD);
         }
