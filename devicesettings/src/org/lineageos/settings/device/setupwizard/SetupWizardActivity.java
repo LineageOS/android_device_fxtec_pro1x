@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021-2022 The LineageOS Project
+ * Copyright (C) 2021-2025 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,6 +16,7 @@
 
 package org.lineageos.settings.device.setupwizard;
 
+import android.content.Context;
 import android.hardware.input.InputDeviceIdentifier;
 import android.hardware.input.InputManager;
 import android.os.SystemProperties;
@@ -61,10 +62,10 @@ public class SetupWizardActivity extends SetupWizardBaseActivity {
                 String[] values = getResources().getStringArray(R.array.keyboard_layout_values);
                 SystemProperties.set(Constants.KEYBOARD_LAYOUT_PROPERTY, values[position]);
 
-                InputManager iM = InputManager.getInstance();
+                InputManager iM = (InputManager) getSystemService(Context.INPUT_SERVICE);
                 InputDeviceIdentifier iDId = iM.getInputDevice(0).getIdentifier();
                 values = getResources().getStringArray(R.array.keyboard_layout_languages);
-                String lD = KeyboardUtils.getLayoutDescriptor(iDId, values[position]);
+                String lD = KeyboardUtils.getLayoutDescriptor(iM, iDId, values[position]);
                 if (lD != null) {
                     iM.setCurrentKeyboardLayoutForInputDevice(iDId, lD);
                 }
