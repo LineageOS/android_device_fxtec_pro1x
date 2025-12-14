@@ -6,4 +6,8 @@
 <resources>
     <!-- Allow rotation by default -->
     <bool name="config_allowRotation">true</bool>
+
+    <integer name="max_depth_blur_radius">11</integer>
+
+    <dimen name="max_depth_blur_radius_enhanced">15dp</dimen>
 </resources>
