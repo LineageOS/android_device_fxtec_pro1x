@@ -2,7 +2,7 @@
 genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-005b/keymap               u:object_r:sysfs_keyboard:s0
 
 # LED
-genfscon sysfs /devices/platform/soc/soc:leds/leds/button-backlight                u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/soc/soc:leds/leds/keyboard-backlight              u:object_r:sysfs_leds:s0
 
 # Touchscreen
 genfscon sysfs /goodix                                                             u:object_r:sysfs_touchpanel:s0
