@@ -17,15 +17,16 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:key="keyboard_settings"
     android:title="@string/keyboard_settings_title">
 
     <androidx.preference.ListPreference
         android:key="keyboard_layout"
-        android:title="@string/keyboard_layout_title"
         android:entries="@array/keyboard_layout_titles"
         android:entryValues="@array/keyboard_layout_values"
-        android:summary="%s" />
+        android:title="@string/keyboard_layout_title"
+        app:useSimpleSummaryProvider="true" />
 
     <androidx.preference.SwitchPreferenceCompat
         android:key="keyboard_keymap_altgr"
