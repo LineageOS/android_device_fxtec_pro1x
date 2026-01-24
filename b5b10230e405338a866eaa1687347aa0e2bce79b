@@ -33,6 +33,24 @@
       "message": "No alphabetical order?",
       "revId": "b5b10230e405338a866eaa1687347aa0e2bce79b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47838eba_1492d952",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-01-24T04:18:56Z",
+      "side": 1,
+      "message": "d\u0027oh!",
+      "parentUuid": "96ceab85_273e386a",
+      "revId": "b5b10230e405338a866eaa1687347aa0e2bce79b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
