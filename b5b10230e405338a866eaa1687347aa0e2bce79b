@@ -16,6 +16,23 @@
       "message": "```[100% 149/149 4m31s remaining] Prebuilt:  (out/target/product/pro1x/kernel)\n\n#### build completed successfully (05:18 (mm:ss)) ####```",
       "revId": "b5b10230e405338a866eaa1687347aa0e2bce79b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "96ceab85_273e386a",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-01-24T02:29:21Z",
+      "side": 1,
+      "message": "No alphabetical order?",
+      "revId": "b5b10230e405338a866eaa1687347aa0e2bce79b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
