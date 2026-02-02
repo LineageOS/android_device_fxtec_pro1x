@@ -26,7 +26,7 @@ bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 
-# BPF
+# eBPF
 ro.bpf.kver_override=5.10.239
 
 # GMS
