@@ -16,6 +16,23 @@
       "message": "Update device tree to match kernel tree in same branch",
       "revId": "5db0dbb8a147f203e06c03b6eeafe16bae80cab2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "37eab7e5_d0814511",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-17T16:40:23Z",
+      "side": 1,
+      "message": "kernel updated as well with latest head.",
+      "revId": "5db0dbb8a147f203e06c03b6eeafe16bae80cab2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
