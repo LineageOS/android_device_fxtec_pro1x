@@ -263,6 +263,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
     FrameworksOverlay \
     Launcher3DeviceOverlay \
+    LineageSDKResCommon \
     SettingsOverlay \
     SettingsProviderOverlay \
     SystemUIOverlay \
