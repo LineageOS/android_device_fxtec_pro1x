@@ -255,15 +255,13 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
     FrameworksOverlay \
     Launcher3DeviceOverlay \
     LineageSDKResCommon \
+    LineageSettingsProviderOverlay \
     SettingsOverlay \
     SettingsProviderOverlay \
     SystemUIOverlay \
