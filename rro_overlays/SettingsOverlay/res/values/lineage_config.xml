@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2022 The LineageOS Project
+     SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
     <!-- Indicates whether device has a side mounted fingerprint sensor,
          but a dedicated one, i.e. not embedded in the power button. -->
-    <bool name="config_is_side_fps" translatable="false">true</bool>
-
-    <!-- Max network scan search time in seconds -->
-    <integer name="config_network_scan_helper_max_search_time_sec">254</integer>
+    <bool name="config_is_side_fps">true</bool>
 </resources>
