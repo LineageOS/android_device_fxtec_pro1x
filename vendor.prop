@@ -97,6 +97,7 @@ ro.vendor.bluetooth.wipower=false
 
 # Camera
 camera.disable_zsl_mode=1
+vendor.camera.aux.packageexcludelist=com.adobe.scan.android,com.tencent.mm,org.telegram.messenger,us.zoom.videomeetings
 
 # Chipset
 ro.soc.manufacturer=QTI
