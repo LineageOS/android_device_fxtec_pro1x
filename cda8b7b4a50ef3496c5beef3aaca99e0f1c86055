@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61faa3a5_f24744c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2026-03-31T01:02:35Z",
+      "side": 1,
+      "message": "Update device tree to match kernel tree in same branch",
+      "revId": "cda8b7b4a50ef3496c5beef3aaca99e0f1c86055",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
