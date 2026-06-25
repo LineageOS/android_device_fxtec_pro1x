@@ -82,6 +82,7 @@ BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_NO_GCC := true
 TARGET_KERNEL_SOURCE := kernel/fxtec/sm6115
 TARGET_KERNEL_CONFIG := vendor/bengal-perf_defconfig vendor/ext_config/pro1x.config
+TARGET_KERNEL_CLANG_VERSION := r563880c
 
 # Kernel modules - Audio
 TARGET_MODULE_ALIASES += \
