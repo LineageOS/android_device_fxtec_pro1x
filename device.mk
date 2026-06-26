@@ -137,11 +137,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
-# fastbootd
-PRODUCT_PACKAGES += \
-    android.hardware.fastboot@1.1-impl.custom \
-    fastbootd
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service
