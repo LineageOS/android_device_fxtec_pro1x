@@ -213,6 +213,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
 
+# libion
+$(call soong_config_set_bool,libion,enabled,true)
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
