@@ -16,6 +16,24 @@
       "message": "broken for me, bootloader loop to fastboot.",
       "revId": "b421016bd88e16d8b26286c755da7e995b7cb133",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e052a48c_8173318c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-08-30T17:41:19Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "2aedf9b1_794261c3",
+      "revId": "b421016bd88e16d8b26286c755da7e995b7cb133",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
