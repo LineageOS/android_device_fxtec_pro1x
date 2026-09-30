@@ -16,10 +16,8 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <style name="Theme.SetupWizard" parent="@style/SudFullDynamicColorThemeGlifV3.DayNight"/>
-
-    <style name="SpinnerItem">
-        <item name="android:textSize">15sp</item>
-        <item name="android:paddingLeft">@dimen/content_margin_left</item>
+    <style name="Theme.SetupWizard" parent="@style/SudThemeGlifExpressive.DayNight">
+        <item name="sucUsePartnerResource">true</item>
+        <item name="sudUsePartnerHeavyTheme">true</item>
     </style>
 </resources>

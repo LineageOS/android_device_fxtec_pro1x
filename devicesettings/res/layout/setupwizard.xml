@@ -19,83 +19,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/setup_wizard_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    app:sudDescriptionText="@string/setupwizard_summary">
 
     <LinearLayout
-        android:orientation="vertical"
+        style="@style/SudContentFrame"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        style="@style/SudContentFrame">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <FrameLayout
-            android:id="@+id/page"
+        <TextView
+            android:id="@+id/keylayout_title"
+            style="?attr/sudItemTitleStyle"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/kbd_layout_list"
+            android:text="@string/keyboard_layout_title" />
 
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:fillViewport="true">
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <!-- Add your own screen content here -->
-
-                    <!-- Summary text -->
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        style="@style/SudItemTitle.GlifDescription"
-                        android:text="@string/setupwizard_summary"/>
-
-                    <!-- Spinner option -->
-                    <TwoLineListItem
-                        android:id="@+id/keylayout_item"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minHeight="?android:attr/listPreferredItemHeight"
-                        android:mode="twoLine"
-                        android:background="?android:attr/selectableItemBackground"
-                        android:gravity="center_vertical">
-
-                        <TextView
-                            android:id="@+id/keylayout_title"
-                            android:layout_marginTop="24dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="@string/keyboard_layout_title"
-                            style="@style/SpinnerItem" />
-
-                        <Spinner
-                            android:id="@+id/kbd_layout_list"
-                            android:layout_marginTop="48dp"
-                            android:layout_width="200dp"
-                            android:layout_height="wrap_content"
-                            android:saveEnabled="false"/>
-                    </TwoLineListItem>
-                </LinearLayout>
-            </ScrollView>
-        </FrameLayout>
-
-        <!-- Navigation; Keep this! -->
-        <RelativeLayout
-            android:id="@+id/navigation_bar"
+        <Spinner
+            android:id="@+id/kbd_layout_list"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <Button
-                android:id="@+id/btn_next"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:text="@string/setupwizard_next"
-                style="@style/SudGlifButton.Primary" />
-
-        </RelativeLayout>
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:saveEnabled="false" />
 
     </LinearLayout>
 </com.google.android.setupdesign.GlifLayout>
