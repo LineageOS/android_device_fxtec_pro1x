@@ -91,8 +91,7 @@ public class SetupWizardActivity extends SetupWizardBaseActivity {
             arrayList.add(hashMap);
         }
 
-        // we use different layouts for the spinner when opened and closed to imitate the look
-        // of other SuW pages (e.g. the timezone picker when closed)
+        // Use the setup theme typography for the selected keyboard layout.
         final SimpleAdapter adapter = new SimpleAdapter(this, arrayList,
                 R.layout.kbd_layout_list_selected, from, to);
         adapter.setDropDownViewResource(android.R.layout.simple_list_item_1);
